@@ -1,0 +1,148 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Every Embassy in the World},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Every Embassy in the World\par}
+\vspace{0.4em}
+{\large The world's diplomatic missions from open data,\\and the diplomatic web from the Amarna letters to today\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: {{DOI_LINK}}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+I build an open gazetteer of the world's current diplomatic missions by cleaning, merging and checking {{data.osm_features|int}} OpenStreetMap objects tagged as diplomatic and the embassy, consulate and representative-office items of Wikidata. The result holds {{data.missions|int}} located missions sent by {{data.senders|int}} states, the European Union and the Sovereign Order of Malta, in {{data.cities|int}} cities, plus {{data.wd_unlocated|int}} missions known only as country pairs. {{pairs.resident_states|int}} ordered pairs of states, {{pairs.density_pc|pc1}} of those possible, have an embassy-level mission. Totals of posts agree with the Lowy Institute Global Diplomacy Index to within {{coverage.lowy_min_pct|pc}} to {{coverage.lowy_max_pct|pc}} for the seven countries it reports in its key findings. {{networks.embassies.0.name|raw}} has the widest embassy-level network ({{networks.embassies.0.n|int}} states) and {{networks.posts.0.name|raw}} the most posts ({{networks.posts.0.n|int}}); {{cities.0.city|raw}} hosts the most embassies ({{cities.0.n|int}}) and {{consular_cities.0.city|raw}} the most consulates ({{consular_cities.0.n|int}}). I document capitals whose embassies stayed behind or moved, special cases of contested recognition as the data record them, and per-country coverage against the Correlates of War Diplomatic Exchange data, which I also use to trace the diplomatic web from {{cow.states_1817|int}} states and {{cow.rep_1817|int}} links in 1817 to {{cow.states_2005|int}} states and {{cow.rep_2005|int}} links in 2005, with ambassador-level links rising from {{cow.amb_share_1817|pc1}} to {{cow.amb_share_2005|pc1}}. A small sample of {{deep.events|int}} famous missions from {{deep.first_year|yr}} to {{deep.last_year|raw}} sets the modern network in a longer history; {{deep.confirmed|int}} of its {{deep.entries|int}} dated lines are confirmed in the cited articles.
+
+\textbf{Keywords:} diplomacy; embassies; consulates; OpenStreetMap; Wikidata; Correlates of War; diplomatic networks; open data
+\end{quote}
+
+\section{Introduction}
+Embassies are the most visible infrastructure of international relations: buildings in foreign capitals that signal recognition, interest and the willingness to pay for a permanent presence. Diplomatic representation has long been used as a measure of status and of the structure of the state system \citep{bayer}, and the Lowy Institute's Global Diplomacy Index counts the networks of {{params.lowy_countries|int}} countries in detail \citep{lowy}. What has been missing is an open, global, located map of every mission, which open collaborative data now make possible.
+
+This paper builds such a map, checks it against independent counts, and uses it to describe the present network: who is present where, where embassies cluster, which capitals they have not followed, and how the data record cases where recognition is contested. It then sets the present against the Correlates of War record of 1817 to 2005, and against a small sample of earlier missions. The interactive version lets readers draw any country's network and see who is present in any capital (\url{{{meta.page}}}).
+
+\section{Data}
+\textbf{OpenStreetMap.} I start from {{data.osm_features|int}} objects tagged office=diplomatic or amenity=embassy, fetched through the Overpass API in 2026 \citep{osm}. Tags give the kind of mission (diplomatic=embassy, consulate or liaison, refined by embassy=high\_commission, nunciature, delegation, mission, residence or branch\_embassy and consulate=consulate\_general, honorary\_consul and others), the sending state (country, an ISO 3166 code) and the receiving state or organisation (target). {{data.osm_with_wikidata|int}} of the kept objects link to a Wikidata item.
+
+\textbf{Wikidata.} The Wikidata extract \citep{wikidata} requested items of six classes. Checking the items of each class by name showed two to be the wrong classes: one holds {{data.wd_classes.Q2385804.n|int}} schools and colleges and another {{data.wd_classes.Q2001305.n|int}} television channels; fewer than 1\% of their items are named as missions, against {{data.wd_classes.Q3917681.share_named_as_mission|pc1}} of the embassy class. They were dropped. The embassy ({{data.wd_classes.Q3917681.n|int}} items), consulate ({{data.wd_classes.Q7843791.n|int}}) and representative office ({{data.wd_classes.Q5244910.n|int}}) classes were kept. Items give the operator (sending state), country, coordinates for some, and inception and end dates.
+
+\textbf{Correlates of War.} The Diplomatic Exchange data set v2006.1 \citep{bayer} records, for every pair of states in the system and about every five years from 1817 to 2005 ({{params.waves|int}} waves), the level at which each is represented in the other: none, charg\'e d'affaires, minister, ambassador or other. Every pair appears in both orders and the codings agree. In the 1950 to 1965 waves every represented pair is coded ``other'': levels were not recorded, so I count representation for those years but not ambassadors.
+
+\textbf{Benchmarks and geography.} The Lowy Institute's 2024 key findings give total posts for seven countries \citep{lowy}. Natural Earth supplies borders and populated places \citep{naturalearth}.
+
+\section{Methods}
+\textbf{Classification and cleaning.} Each OpenStreetMap object is given one of eleven types: embassy, high commission, apostolic nunciature, delegation, interests section, permanent mission to an organisation, consulate-general, consulate, honorary consulate, representative or liaison office, and embassy section or office (trade, cultural and consular sections). The first five are ``embassy level''. Names in English and 22 other languages are matched with regular expressions to refine types where tags are missing. I dropped {{data.dropped_residences|int}} residences, {{data.dropped_intl_org|int}} offices of international organisations, {{data.dropped_unknown_sender|int}} objects whose sending state could not be determined and {{data.dropped_other|int}} that were not diplomatic.
+
+\textbf{Sending and receiving states.} The sending state comes from the country tag, else the linked Wikidata item, else the name, matched against country names and demonyms in many languages with longer names matched first (so that ``Niger'' does not match inside ``Nigeria''). An explicit English name (``Embassy of Montenegro'') overrides a conflicting tag. A bare ``Republic of China'' is treated as ambiguous. {{data.sender_from_name|int}} missions take their sender from a name. Missions tagged with sub-national senders (German L\"ander, Spanish and Italian regions, Qu\'ebec, Hong Kong) are kept but separated ({{data.subnational|int}}). The receiving state is the territory in which the mission stands (Natural Earth 1:10m), except embassies to the Holy See, which stand in Rome, and permanent missions, which are accredited to an organisation. Every mission is named after the nearest large city.
+
+\textbf{Merging.} Missions of the same kind from the same sender to the same receiver within {{params.merge_m|int}} m are merged ({{data.merged_dups|int}}); objects sharing a Wikidata identifier are also merged. Wikidata items are then linked through OpenStreetMap's wikidata tags ({{data.wd_linked|int}}), matched by sending and receiving state ({{data.wd_matched|int}}), added as points when they have coordinates that OpenStreetMap lacks ({{data.wd_added|int}}), or kept as country pairs without a location ({{data.wd_unlocated|int}}). Items with an end date ({{data.wd_dropped_dissolved|int}}) or of states that no longer exist are dropped.
+
+\textbf{Corrections.} {{taiwan.allies_n|int}} states recognise Taiwan \citep{reuters}. Embassy-level records between Taiwan and other states are either working offices named as embassies, counted as representative offices, or records of embassies closed when recognition switched, which are flagged as out of date and excluded ({{data.flagged|int}} records). {{data.hand_corrections|int}} hand corrections are listed in the merge log.
+
+\textbf{Coverage.} For each state I compare the number of states in which it has an embassy-level mission in 2026 with the number in which the Correlates of War data record it as represented in 2005, and likewise for missions hosted. A ratio of at least 0.8 is ``good'', 0.5 to 0.8 ``partial'' and below 0.5 ``thin''. The benchmark is crude: many embassies have opened since 2005 and the 2005 data count non-resident accreditation in some cases.
+
+\textbf{Deep history.} The {{deep.entries|int}} lines before 1817 are a hand-compiled sample of famous missions, letters, treaties, tribute missions, congresses and the first resident embassies, with conventional dates, approximate court locations and an English Wikipedia article as the cited source for each ({{deep.articles|int}} articles). Each date was checked against its cited article: {{deep.confirmed|int}} lines are confirmed (the year appears in the article), {{deep.approximate|int}} approximate (the article gives a nearby year) and {{deep.not_confirmed|int}} not confirmed (Table~\ref{tab:deep}).
+
+\section{Results}
+\subsection{The map}
+The gazetteer holds {{data.missions|int}} missions (Figure~\ref{fig:map}): {{data.by_type.embassy|int}} embassies, {{data.by_type.high_commission|int}} high commissions, {{data.by_type.nunciature|int}} nunciatures, {{data.by_type.delegation|int}} delegations, {{data.by_type.perm_mission|int}} permanent missions, {{data.by_type.consulate_general|int}} consulates-general, {{data.by_type.consulate|int}} consulates, {{data.by_type.honorary|int}} honorary consulates, {{data.by_type.liaison|int}} representative offices and {{data.by_type.embassy_office|int}} embassy sections. {{data.from_osm|int}} come from OpenStreetMap and {{data.from_wikidata|int}} from Wikidata. Of the {{pairs.resident_states|int}} embassy-level pairs of states, {{pairs.both|int}} are in both sources, {{pairs.osm_only|int}} only in OpenStreetMap and {{pairs.wd_only|int}} only in Wikidata. {{pairs.mutual|int}} unordered pairs have embassies both ways and {{pairs.one_way|int}} ordered pairs are one-way.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_map.png}
+\caption{Every mission in the gazetteer, coloured by kind.}\label{fig:map}\end{figure}
+
+\subsection{Networks and the Lowy benchmark}
+{{networks.embassies.0.name|raw}} has embassy-level missions in {{networks.embassies.0.n|int}} states, {{networks.embassies.1.name|raw}} in {{networks.embassies.1.n|int}} and {{networks.embassies.2.name|raw}} in {{networks.embassies.2.n|int}} (Figure~\ref{fig:net}). Counting all posts except honorary consulates, {{networks.posts.0.name|raw}} has {{networks.posts.0.n|int}} and {{networks.posts.1.name|raw}} {{networks.posts.1.n|int}}. Against Lowy's totals the gazetteer finds between {{coverage.lowy_min_pct|pc}} and {{coverage.lowy_max_pct|pc}} (Table~\ref{tab:lowy}). The European Union runs {{eu.delegations|int}} embassy-level delegations and the Holy See {{holy_see.abroad|int}} nunciatures, the {{holy_see.abroad_rank|ord}} largest network, for a population of about {{smallest.0.pop|int}}. Figure~\ref{fig:ex} draws four networks.
+
+{{TABLE_LOWY}}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_networks.png}
+\caption{The largest embassy-level networks: states in which each country has an embassy, high commission or nunciature.}\label{fig:net}\end{figure}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_examples.png}
+\caption{Four networks, drawn from the capital to every mapped mission (and to the receiving capital for Wikidata pairs without location).}\label{fig:ex}\end{figure}
+
+\subsection{Capitals and clusters}
+{{cities.0.city|raw}} hosts {{cities.0.n|int}} embassies, {{cities.1.city|raw}} {{cities.1.n|int}}, {{cities.2.city|raw}} and {{cities.3.city|raw}} {{cities.2.n|int}} each (Figure~\ref{fig:cities}). {{consular_cities.0.city|raw}} has the most career consulates ({{consular_cities.0.n|int}}), ahead of {{consular_cities.1.city|raw}} ({{consular_cities.1.n|int}}). The densest kilometre is around United Nations headquarters in New York ({{clusters.0.n|int}} missions within 1 km of a point), then Washington ({{clusters.1.n|int}}) and {{clusters.2.city|raw}} ({{clusters.2.n|int}}). {{fewest_hosted.0.name|raw}} hosts no resident embassy.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_cities.png}
+\caption{Cities hosting the most embassy-level missions accredited to their own country.}\label{fig:cities}\end{figure}
+
+\subsection{Capitals the embassies did not follow}
+In {{seats_mismatch_n|raw}} states the official capital is not where most embassies are (Table~\ref{tab:seats}). Of {{israel.embassies|int}} embassies to Israel, {{israel.tel_aviv_area|int}} are in the Tel Aviv area and {{israel.jerusalem|int}} in Jerusalem; the status of Jerusalem is disputed and the data simply record locations. Lagos keeps {{moves.nigeria.cons_old|int}} consulates while {{moves.nigeria.emb_new|int}} embassies are in Abuja; Rio de Janeiro keeps {{moves.brazil.cons_old|int}} consulates; Bern has {{switzerland.bern|int}} embassies and Geneva {{switzerland.geneva_perm_missions|int}} permanent missions.
+
+{{TABLE_SEATS}}
+
+\subsection{Contested cases, as recorded}
+The data record Taiwanese embassies in all {{taiwan.n_embassy_hosts|int}} states that recognise Taiwan and {{taiwan.by_type.liaison|int}} representative offices in {{taiwan.liaison_hosts|int}} states; Lowy counted {{taiwan.lowy|int}} Taiwanese posts and the gazetteer finds {{taiwan.posts|int}}. {{kosovo.embassies_hosted|int}} embassies are mapped in Pristina and Kosovo has embassy-level missions in {{kosovo.abroad|int}} states. {{palestine.missions_to|int}} missions to Palestine are mapped, {{palestine.ramallah_area|int}} in the Ramallah area, and Palestine has embassy-level missions in {{palestine.palestine_abroad|int}} states. The Sahrawi Arab Democratic Republic has embassy-level missions in {{western_sahara.sadr_abroad|int}} states; only {{western_sahara.missions_in_territory|int}} consulates are mapped in the territory of Western Sahara, a clear gap. Natural Earth's default borders, used for location, follow lines of control; this is a technical choice, not a position.
+
+\subsection{Neighbours and long links}
+Of {{neighbours.pairs|int}} pairs of bordering states, {{neighbours.without_embassy|int}} have no embassy-level mission either way; some reflect conflict or non-recognition and others, such as Botswana and Namibia, gaps in mapping. The longest embassy link joins {{longest.0.sender|raw}} and {{longest.0.receiver|raw}} ({{longest.0.km|int}} km). {{odd_pairs.n|int}} links join states of under {{params.odd_pop_m|int}} million people more than {{params.odd_km|int}} km apart.
+
+\subsection{The web since 1817}
+The Correlates of War data show the system growing from {{cow.states_1817|int}} states in 1817 to {{cow.states_2005|int}} in 2005 and the number of pairs linked in at least one direction from {{cow.mutual_1817|int}} to {{cow.mutual_2005|int}} (Figure~\ref{fig:web}). Ambassadors were rare until the twentieth century ({{cow.amb_share_1914|pc1}} of links in 1914) and nearly universal after 1970 ({{cow.amb_share_1970|pc1}}). Directed links peak in {{cow.peak_rep_year|raw}} ({{cow.peak_rep|int}}) and fall to {{cow.rep_1985|int}} in 1985, which may partly reflect the sources. Rival networks are visible (Figure~\ref{fig:rivals}): West Germany was represented in {{cow.frg_1965|int}} states and East Germany in {{cow.gdr_1965|int}} in 1965, against {{cow.frg_1975|int}} and {{cow.gdr_1975|int}} in 1975; the People's Republic of China in {{cow.prc_1950|int}} and Taiwan in {{cow.roc_1950|int}} in 1950, against {{cow.prc_1975|int}} and {{cow.roc_1975|int}} in 1975 and {{cow.prc_2005|int}} and {{cow.roc_2005|int}} in 2005.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_web.png}
+\caption{The diplomatic system 1817 to 2005: states, pairs linked and the share of links at ambassador rank (levels not recorded 1950 to 1965, shaded).}\label{fig:web}\end{figure}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_rivals.png}
+\caption{Rival networks: number of states in which each side was represented.}\label{fig:rivals}\end{figure}
+
+\subsection{Before 1817}
+The deep-history sample (Figure~\ref{fig:deep}, Table~\ref{tab:deep}) runs from {{deep.first_year|yr}} to {{deep.last_year|raw}}: {{deep.amarna|int}} lines for the Amarna letters, envoys across Eurasia, tribute missions to the Ming, the first resident embassies of Italy from {{deep.first_resident|raw}}, Spain's resident ambassador in London by {{deep.spain_london|raw}} and the first permanent Ottoman embassy in {{deep.ottoman_first|raw}}. It is a sample of famous, well-documented cases chosen to illustrate, not a census, and says nothing about the volume of diplomacy in any period.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_deep.png}
+\caption{The deep-history sample, coloured by date.}\label{fig:deep}\end{figure}
+
+{{TABLE_DEEP}}
+
+\section{Limitations}
+A mapped mission may have closed or suspended work; a missing one may simply not be mapped. Coverage is uneven: by the 2005 benchmark the network abroad looks complete for {{coverage.abroad_good|int}} of {{coverage.benchmarked|int}} states and hosted embassies for {{coverage.hosted_good|int}}, but consulates and especially honorary consulates are mapped very unevenly, and some cities (New York's consular corps, the consulates of Western Sahara) are clearly under-mapped. Non-resident accreditation is not represented. The Correlates of War benchmark is twenty years old and coded from different sources. Name matching and type rules are heuristic and some records will be misclassified. The deep-history sample is selective, and {{deep.not_confirmed|int}} of its dates could not be confirmed in the cited articles. Nothing here measures the quality of relations, only presence.
+
+\section{Conclusion}
+Open data can now map the world's diplomatic missions with enough completeness to reproduce independent totals for the largest networks. The map shows a dense core of capitals hosting well over a hundred embassies, small states with surprisingly wide networks, capitals that embassies never followed, and a long history in which the resident embassy is a recent invention.
+
+\section*{Data and code availability}
+The interactive version is at \url{{{meta.page}}}. Data and code are at \url{{{meta.repo}}} and archived with this paper at {{DOI_LINK}}. The mission gazetteer is derived from OpenStreetMap and released under the Open Database License; other derived data are CC BY 4.0 and code MIT.
+
+\section*{AI statement}
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\begin{thebibliography}{9}
+\bibitem[Bayer(2006)]{bayer} Bayer, R. (2006) Diplomatic Exchange Data set, v2006.1. Correlates of War Project. \url{http://correlatesofwar.org}
+\bibitem[Lowy Institute(2024)]{lowy} Lowy Institute (2024) Global Diplomacy Index 2024: key findings. \url{https://globaldiplomacyindex.lowyinstitute.org/key_findings}
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Admin 0 countries and populated places, 1:10m and 1:50m. Public domain. \url{https://www.naturalearthdata.com/}
+\bibitem[OpenStreetMap(2026)]{osm} OpenStreetMap contributors (2026) Diplomatic objects (office=diplomatic, amenity=embassy), via the Overpass API. ODbL 1.0. \url{https://www.openstreetmap.org/copyright}
+\bibitem[Reuters(2026)]{reuters} Reuters (2026) Factbox: Taiwan's 12 remaining diplomatic allies.
+\bibitem[Wikidata(2026)]{wikidata} Wikidata contributors (2026) Items for embassies, consulates and representative offices. CC0. \url{https://www.wikidata.org/}
+\bibitem[Wikipedia(2026)]{wiki} Wikipedia contributors (2026) Articles cited per entry in the deep-history sample (data/deep\_history.csv). CC BY-SA 4.0. \url{https://en.wikipedia.org/}
+\end{thebibliography}
+\end{document}

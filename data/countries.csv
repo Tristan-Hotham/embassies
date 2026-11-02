@@ -1,0 +1,201 @@
+code,name,un_member,population,area_km2,continent,wikidata,capital_or_seat,capital_lat,capital_lon
+AF,Afghanistan,True,38041754,642181.0,Asia,Q889,Kabul,34.5186,69.1813
+AL,Albania,True,2854191,28336.0,Europe,Q222,Tirana,41.3275,19.8189
+DZ,Algeria,True,43053054,2308858.0,Africa,Q262,Algiers,36.765,3.0486
+AD,Andorra,True,77142,452.0,Europe,Q228,Andorra,42.5,1.5165
+AO,Angola,True,31825295,1244652.0,Africa,Q916,Luanda,-8.8363,13.2325
+AG,Antigua and Barbuda,True,97118,452.0,North America,Q781,Saint John's,17.118,-61.85
+AR,Argentina,True,44938712,2784305.0,South America,Q414,Buenos Aires,-34.6006,-58.3995
+AM,Armenia,True,2957731,29588.0,Asia,Q399,Yerevan,40.1831,44.5116
+AU,Australia,True,25366698,7691285.0,Oceania,Q408,Canberra,-35.283,149.129
+AT,Austria,True,8877067,83993.0,Europe,Q40,Vienna,48.202,16.3647
+AZ,Azerbaijan,True,10023318,86250.0,Asia,Q227,Baku,40.3972,49.8603
+BS,Bahamas,True,389482,12604.0,North America,Q778,Nassau,25.0834,-77.35
+BH,Bahrain,True,1641172,688.0,Asia,Q398,Manama,26.2361,50.5831
+BD,Bangladesh,True,163046161,136904.0,Asia,Q902,Dhaka,23.725,90.4066
+BB,Barbados,True,287025,444.0,North America,Q244,Bridgetown,13.102,-59.6165
+BY,Belarus,True,9466856,207499.0,Europe,Q184,Minsk,53.9019,27.5647
+BE,Belgium,True,11484055,30670.0,Europe,Q31,Brussels,50.8353,4.3314
+BZ,Belize,True,390353,22299.0,North America,Q242,Belmopan,17.252,-88.7671
+BJ,Benin,True,11801151,116113.0,Africa,Q962,Cotonou,6.402,2.518
+BT,Bhutan,True,763092,40421.0,Asia,Q917,Thimphu,27.473,89.639
+BO,Bolivia,True,11513100,1086808.0,South America,Q750,La Paz,-16.496,-68.1519
+BA,Bosnia and Herzegovina,True,3301000,51827.0,Europe,Q225,Sarajevo,43.85,18.383
+BW,Botswana,True,2303697,579029.0,Africa,Q963,Gaborone,-24.6463,25.9119
+BR,Brazil,True,211049527,8472665.0,South America,Q155,Brasília,-15.7814,-47.918
+BN,Brunei,True,433285,5717.0,Asia,Q921,Bandar Seri Begawan,4.8833,114.9333
+BG,Bulgaria,True,6975761,112760.0,Europe,Q219,Sofia,42.6853,23.3147
+BF,Burkina Faso,True,20321378,272769.0,Africa,Q965,Ouagadougou,12.3723,-1.5267
+BI,Burundi,True,11530580,27041.0,Africa,Q967,Bujumbura,-3.3761,29.36
+CV,Cabo Verde,True,549935,3927.0,Africa,Q1011,Praia,14.9167,-23.5167
+KH,Cambodia,True,16486542,181060.0,Asia,Q424,Phnom Penh,11.552,104.9147
+CM,Cameroon,True,25876380,464318.0,Africa,Q1009,Yaoundé,3.8686,11.5147
+CA,Canada,True,37589262,9945628.0,North America,Q16,Ottawa,45.4186,-75.702
+CF,Central African Republic,True,4745185,617984.0,Africa,Q929,Bangui,4.3666,18.5583
+TD,Chad,True,15946876,1266283.0,Africa,Q657,N'Djamena,12.115,15.0472
+CL,Chile,True,18952038,736595.0,South America,Q298,Santiago,-33.4481,-70.669
+CN,China,True,1397715000,9375215.0,Asia,Q148,Beijing,39.9308,116.3863
+CO,Colombia,True,50339443,1135118.0,South America,Q739,Bogota,4.5984,-74.0853
+KM,Comoros,True,850886,1672.0,Africa,Q970,Moroni,-11.7042,43.2402
+CG,Republic of the Congo,True,5380508,344889.0,Africa,Q971,Brazzaville,-4.2572,15.2827
+CD,DR Congo,True,86790567,2325240.0,Africa,Q974,Kinshasa,-4.3278,15.313
+CR,Costa Rica,True,5047561,51151.0,North America,Q800,San José,9.937,-84.086
+CI,Cote d'Ivoire,True,25716544,320677.0,Africa,Q1008,Abidjan,5.3219,-4.042
+HR,Croatia,True,4067500,55023.0,Europe,Q224,Zagreb,45.8,16.0
+CU,Cuba,True,11333483,109929.0,North America,Q241,Havana,23.1339,-82.3661
+CY,Cyprus,True,1198575,5395.0,Asia,Q229,Nicosia,35.1667,33.3666
+CZ,Czechia,True,10669709,78759.0,Europe,Q213,Prague,50.0853,14.464
+DK,Denmark,True,5818553,42696.0,Europe,Q35,København,55.6805,12.5615
+DJ,Djibouti,True,973560,21848.0,Africa,Q977,Djibouti,11.595,43.148
+DM,Dominica,True,71808,730.0,North America,Q784,Roseau,15.301,-61.387
+DO,Dominican Republic,True,10738958,48440.0,North America,Q786,Santo Domingo,18.472,-69.902
+EC,Ecuador,True,17373662,255014.0,South America,Q736,Quito,-0.213,-78.502
+EG,Egypt,True,100388073,1001058.0,Africa,Q79,Cairo,30.0519,31.248
+SV,El Salvador,True,6453553,20539.0,North America,Q792,San Salvador,13.7119,-89.205
+GQ,Equatorial Guinea,True,1355986,26672.0,Africa,Q983,Malabo,3.75,8.7833
+ER,Eritrea,True,6081196,122538.0,Africa,Q986,Asmara,15.3333,38.9333
+EE,Estonia,True,1326590,45819.0,Europe,Q191,Tallinn,59.4339,24.728
+SZ,Eswatini,True,1148130,17112.0,Africa,Q1050,Mbabane,-26.3167,31.1333
+ET,Ethiopia,True,112078730,1127375.0,Africa,Q115,Addis Ababa,9.0353,38.6981
+FJ,Fiji,True,889953,18930.0,Oceania,Q712,Suva,-18.133,178.4417
+FI,Finland,True,5520314,333060.0,Europe,Q33,Helsinki,60.1775,24.9322
+FR,France,True,67059887,636762.0,Europe,Q142,Paris,48.8686,2.3314
+GA,Gabon,True,2172579,259968.0,Africa,Q1000,Libreville,0.3854,9.458
+GM,Gambia,True,2347706,10501.0,Africa,Q1005,Banjul,13.4539,-16.5917
+GE,Georgia,True,3720382,69571.0,Asia,Q230,Tbilisi,41.727,44.7888
+DE,Germany,True,83132799,357674.0,Europe,Q183,Berlin,52.5238,13.3996
+GH,Ghana,True,30417856,238669.0,Africa,Q117,Accra,5.552,-0.2187
+GR,Greece,True,10716322,131353.0,Europe,Q41,Athens,37.9853,23.7314
+GD,Grenada,True,112003,347.0,North America,Q769,Saint George's,12.0526,-61.7416
+GT,Guatemala,True,16604026,108811.0,North America,Q774,Guatemala City,14.6231,-90.5289
+GN,Guinea,True,12771246,244302.0,Africa,Q1006,Conakry,9.5335,-13.6822
+GW,Guinea-Bissau,True,1920922,32829.0,Africa,Q1007,Bissau,11.865,-15.5984
+GY,Guyana,True,782766,211214.0,South America,Q734,Georgetown,6.802,-58.167
+HT,Haiti,True,11263077,26892.0,North America,Q790,Port-au-Prince,18.543,-72.338
+HN,Honduras,True,9746117,112236.0,North America,Q783,Tegucigalpa,14.104,-87.2195
+HU,Hungary,True,9769949,93201.0,Europe,Q28,Budapest,47.502,19.0814
+IS,Iceland,True,361313,102390.0,Europe,Q189,Reykjavík,64.15,-21.95
+IN,India,True,1366417754,3150744.0,Asia,Q668,New Delhi,28.6,77.2
+ID,Indonesia,True,270625568,1879826.0,Asia,Q252,Jakarta,-6.1725,106.8275
+IR,Iran,True,82913906,1622509.0,Asia,Q794,Tehran,35.6739,51.4224
+IQ,Iraq,True,39309783,437367.0,Asia,Q796,Baghdad,33.3406,44.3919
+IE,Ireland,True,4941444,69445.0,Europe,Q27,Dublin,53.335,-6.2509
+IL,Israel,True,9053300,22101.0,Asia,Q801,Jerusalem,31.7784,35.2066
+IT,Italy,True,60297396,301184.0,Europe,Q38,Rome,41.8979,12.4813
+JM,Jamaica,True,2948279,11033.0,North America,Q766,Kingston,17.9771,-76.7674
+JP,Japan,True,126264931,373507.0,Asia,Q17,Tokyo,35.687,139.7495
+JO,Jordan,True,10101694,88863.0,Asia,Q810,Amman,31.952,35.9314
+KZ,Kazakhstan,True,18550105,2720767.0,Asia,Q232,Nur-Sultan,51.1811,71.4278
+KE,Kenya,True,52573973,585702.0,Africa,Q114,Nairobi,-1.2814,36.8147
+KI,Kiribati,True,117606,950.0,Oceania,Q710,Tarawa,1.3382,173.0176
+KP,North Korea,True,25666161,122379.0,Asia,Q423,Pyongyang,39.0214,125.7527
+KR,South Korea,True,51709098,98544.0,Asia,Q884,Seoul,37.5683,126.9978
+KW,Kuwait,True,4207083,17474.0,Asia,Q817,Kuwait City,29.3717,47.9764
+KG,Kyrgyzstan,True,6456900,198990.0,Asia,Q813,Bishkek,42.875,74.5833
+LA,Laos,True,7169455,228114.0,Asia,Q819,Vientiane,17.9667,102.6
+LV,Latvia,True,1912789,64576.0,Europe,Q211,Riga,56.95,24.1
+LB,Lebanon,True,6855713,10004.0,Asia,Q822,Beirut,33.8739,35.5078
+LS,Lesotho,True,2125268,30106.0,Africa,Q1013,Maseru,-29.3167,27.4833
+LR,Liberia,True,4937374,95298.0,Africa,Q1014,Monrovia,6.3146,-10.7997
+LY,Libya,True,6777452,1623759.0,Africa,Q1016,Tripoli,32.8925,13.18
+LI,Liechtenstein,True,38019,137.0,Europe,Q347,Vaduz,47.1337,9.5167
+LT,Lithuania,True,2786844,64939.0,Europe,Q37,Vilnius,54.6834,25.3166
+LU,Luxembourg,True,619896,2608.0,Europe,Q32,Luxembourg,49.6117,6.13
+MG,Madagascar,True,26969307,592981.0,Africa,Q1019,Antananarivo,-18.9147,47.5147
+MW,Malawi,True,18628747,119398.0,Africa,Q1020,Lilongwe,-13.9833,33.7833
+MY,Malaysia,True,31949777,327885.0,Asia,Q833,Kuala Lumpur,3.1686,101.698
+MV,Maldives,True,530953,109.0,Seven seas (open ocean),Q826,Malé,4.1667,73.4999
+ML,Mali,True,19658031,1252723.0,Africa,Q912,Bamako,12.652,-8.002
+MT,Malta,True,502653,326.0,Europe,Q233,Valletta,35.8997,14.5147
+MH,Marshall Islands,True,58791,165.0,Oceania,Q709,Majuro,7.103,171.38
+MR,Mauritania,True,4525696,1036389.0,Africa,Q1025,Nouakchott,18.0864,-15.9753
+MU,Mauritius,True,1265711,2014.0,Seven seas (open ocean),Q1027,Port Louis,-20.1666,57.5
+MX,Mexico,True,127575529,1957845.0,North America,Q96,Mexico City,19.4444,-99.1329
+FM,Micronesia,True,113815,634.0,Oceania,Q702,Palikir,6.9166,158.15
+MD,Moldova,True,2657637,33207.0,Europe,Q217,Chișinău,47.005,28.8577
+MC,Monaco,True,38964,19.0,Europe,Q235,Monaco,43.7396,7.4069
+MN,Mongolia,True,3225167,1564664.0,Asia,Q711,Ulaanbaatar,47.9186,106.9147
+ME,Montenegro,True,622137,13727.0,Europe,Q236,Podgorica,42.466,19.2663
+MA,Morocco,True,36471769,591743.0,Africa,Q1028,Rabat,34.0253,-6.8364
+MZ,Mozambique,True,30366036,788447.0,Africa,Q1029,Maputo,-25.9533,32.5872
+MM,Myanmar,True,54045420,663159.0,Asia,Q836,Naypyidaw,19.7685,96.1167
+NA,Namibia,True,2494530,822713.0,Africa,Q1030,Windhoek,-22.57,17.0835
+NR,Nauru,True,12581,29.0,Oceania,Q697,Yaren,-0.5213,166.9325
+NP,Nepal,True,28608710,147106.0,Asia,Q837,Kathmandu,27.7186,85.3147
+NL,Netherlands,True,17332850,37397.0,Europe,Q55,The Hague,52.08,4.27
+NZ,New Zealand,True,4917000,268499.0,Oceania,Q664,Wellington,-41.3,174.7833
+NI,Nicaragua,True,6545502,128685.0,North America,Q811,Managua,12.155,-86.2704
+NE,Niger,True,23310715,1181303.0,Africa,Q1032,Niamey,13.5187,2.1147
+NG,Nigeria,True,200963599,907498.0,Africa,Q1033,Abuja,9.0853,7.5314
+MK,North Macedonia,True,2083459,25385.0,Europe,Q221,Skopje,42.0,21.4335
+NO,Norway,True,5347896,382074.0,Europe,Q20,Oslo,59.9186,10.748
+OM,Oman,True,4974986,311213.0,Asia,Q842,Muscat,23.6133,58.5933
+PK,Pakistan,True,216565318,872939.0,Asia,Q843,Islamabad,33.7019,73.1647
+PW,Palau,True,18008,492.0,Oceania,Q695,Melekeok,7.4874,134.6265
+PA,Panama,True,4246439,74530.0,North America,Q804,Panama City,8.97,-79.535
+PG,Papua New Guinea,True,8776109,465147.0,Oceania,Q691,Port Moresby,-9.4647,147.1925
+PY,Paraguay,True,7044636,399901.0,South America,Q733,Asunción,-25.2945,-57.6435
+PE,Peru,True,32510453,1289867.0,South America,Q419,Lima,-12.0461,-77.052
+PH,Philippines,True,108116615,293291.0,Asia,Q928,Manila,14.6061,120.9803
+PL,Poland,True,37970874,313428.0,Europe,Q36,Warsaw,52.2519,20.9981
+PT,Portugal,True,10269417,91390.0,Europe,Q45,Lisbon,38.7247,-9.1468
+QA,Qatar,True,2832067,11150.0,Asia,Q846,Doha,25.2866,51.533
+RO,Romania,True,19356544,236377.0,Europe,Q218,Bucharest,44.4353,26.098
+RU,Russia,True,144373535,16980190.0,Europe,Q159,Moscow,55.7541,37.6136
+RW,Rwanda,True,12626950,25305.0,Africa,Q1037,Kigali,-1.9516,30.0586
+KN,Saint Kitts and Nevis,True,52834,264.0,North America,Q763,Basseterre,17.302,-62.717
+LC,Saint Lucia,True,182790,605.0,North America,Q760,Castries,14.002,-61.0
+VC,Saint Vincent and the Grenadines,True,110589,368.0,North America,Q757,Kingstown,13.1483,-61.2121
+WS,Samoa,True,197097,2780.0,Oceania,Q683,Apia,-13.8415,-171.7386
+SM,San Marino,True,33860,60.0,Europe,Q238,San Marino,43.9361,12.4418
+ST,Sao Tome and Principe,True,215056,1037.0,Africa,Q1039,São Tomé,0.3334,6.7333
+SA,Saudi Arabia,True,34268528,1921725.0,Asia,Q851,Riyadh,24.6428,46.7708
+SN,Senegal,True,16296364,196225.0,Africa,Q1041,Dakar,14.7178,-17.4751
+RS,Serbia,True,6944975,77629.0,Europe,Q403,Belgrade,44.8206,20.466
+SC,Seychelles,True,97625,436.0,Seven seas (open ocean),Q1042,Victoria,-4.6166,55.45
+SL,Sierra Leone,True,7813215,71612.0,Africa,Q1044,Freetown,8.472,-13.2362
+SG,Singapore,True,5703569,511.0,Asia,Q334,Singapore,1.295,103.8539
+SK,Slovakia,True,5454073,48458.0,Europe,Q214,Bratislava,48.15,17.117
+SI,Slovenia,True,2087946,20327.0,Europe,Q215,Ljubljana,46.0553,14.515
+SB,Solomon Islands,True,669823,27199.0,Oceania,Q685,Honiara,-9.438,159.9498
+SO,Somalia,True,10192317,471815.0,Africa,Q1045,Mogadishu,2.0686,45.3647
+ZA,South Africa,True,58558270,1219825.0,Africa,Q258,Pretoria,-25.705,28.2275
+SS,South Sudan,True,11062113,626859.0,Africa,Q958,Juba,4.83,31.58
+ES,Spain,True,47076781,506885.0,Europe,Q29,Madrid,40.402,-3.6853
+LK,Sri Lanka,True,21803000,66291.0,Asia,Q854,Colombo,6.932,79.8578
+SD,Sudan,True,42813238,1855616.0,Africa,Q1049,Khartoum,15.59,32.5322
+SR,Suriname,True,581363,145123.0,South America,Q730,Paramaribo,5.835,-55.167
+SE,Sweden,True,10285453,446173.0,Europe,Q34,Stockholm,59.3527,18.0954
+CH,Switzerland,True,8574832,41435.0,Europe,Q39,Bern,46.9167,7.467
+SY,Syria,True,17070135,185940.0,Asia,Q858,Damascus,33.502,36.2981
+TJ,Tajikistan,True,9321018,142239.0,Asia,Q863,Dushanbe,38.56,68.7739
+TZ,Tanzania,True,58005463,941505.0,Africa,Q924,Dar es Salaam,-6.7981,39.2664
+TH,Thailand,True,69625582,514453.0,Asia,Q869,Bangkok,13.7519,100.5147
+TL,Timor-Leste,True,1293119,15082.0,Asia,Q574,Dili,-8.5594,125.5795
+TG,Togo,True,8082366,56863.0,Africa,Q945,Lomé,6.1339,1.2208
+TO,Tonga,True,104494,603.0,Oceania,Q678,Nuku'alofa,-21.1385,-175.2206
+TT,Trinidad and Tobago,True,1394973,5123.0,North America,Q754,Port-of-Spain,10.652,-61.517
+TN,Tunisia,True,11694719,156613.0,Africa,Q948,Tunis,36.8028,10.1797
+TR,Turkiye,True,83429615,780080.0,Asia,Q43,Ankara,39.9292,32.8624
+TM,Turkmenistan,True,5942089,470849.0,Asia,Q874,Ashgabat,37.95,58.3833
+TV,Tuvalu,True,11646,23.0,Oceania,Q672,Funafuti,-8.5167,179.2166
+UG,Uganda,True,44269594,241853.0,Africa,Q1036,Kampala,0.3186,32.5814
+UA,Ukraine,True,44385155,571999.0,Europe,Q212,Kyiv,50.4353,30.5147
+AE,United Arab Emirates,True,9770529,71085.0,Asia,Q878,Abu Dhabi,24.4667,54.3666
+GB,United Kingdom,True,66834405,244009.0,Europe,Q145,London,51.5019,-0.1187
+US,United States,True,328239523,9464281.0,North America,Q30,"Washington, D.C.",38.9015,-77.0114
+UY,Uruguay,True,3461734,177342.0,South America,Q77,Montevideo,-34.8561,-56.173
+UZ,Uzbekistan,True,33580650,447831.0,Asia,Q265,Tashkent,41.3136,69.293
+VU,Vanuatu,True,299882,12297.0,Oceania,Q686,Port Vila,-17.7334,168.3166
+VE,Venezuela,True,28515829,912684.0,South America,Q717,Caracas,10.5029,-66.919
+VN,Vietnam,True,96462106,328892.0,Asia,Q881,Hanoi,21.0353,105.8481
+YE,Yemen,True,29161922,453075.0,Asia,Q805,Sanaa,15.3567,44.2046
+ZM,Zambia,True,17861030,751914.0,Africa,Q953,Lusaka,-15.4147,28.2814
+ZW,Zimbabwe,True,14645468,389338.0,Africa,Q954,Harare,-17.8158,31.0428
+VA,Holy See,False,825,0.01,Europe,Q237,Vatican City,41.9033,12.4534
+PS,Palestine,False,4685306,6074.0,Asia,Q23792,Ramallah,31.9029,35.2062
+TW,Taiwan,False,23568378,36198.0,Asia,Q865,Taipei,25.0358,121.5683
+XK,Kosovo,False,1794248,10913.0,Europe,Q1246,Pristina,42.6667,21.166
+EH,Sahrawi Arab Democratic Republic,False,603253,90495.0,Africa,Q6250,Western Sahara (territory),24.2003,-12.593
+EU,European Union,False,0,0.0,,,Brussels,50.8467,4.3517
+XO,Sovereign Order of Malta,False,0,0.0,,,Rome,41.9054,12.4796
