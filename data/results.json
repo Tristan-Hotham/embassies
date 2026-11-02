@@ -1,0 +1,5914 @@
+{
+ "meta": {
+  "page": "https://maps.tristanhotham.com/embassies/",
+  "repo": "https://github.com/Tristan-Hotham/embassies",
+  "year": 2026
+ },
+ "data": {
+  "osm_features": 17573,
+  "missions": 15584,
+  "missions_states": 15281,
+  "missions_eu": 147,
+  "missions_xo": 28,
+  "subnational": 129,
+  "from_osm": 15503,
+  "from_wikidata": 81,
+  "merged_dups": 352,
+  "dropped_residences": 775,
+  "dropped_unknown_sender": 289,
+  "dropped_intl_org": 84,
+  "dropped_other": 564,
+  "sender_from_name": 465,
+  "osm_with_wikidata": 6802,
+  "wd_kept": 8732,
+  "wd_linked": 5731,
+  "wd_matched": 1722,
+  "wd_added": 81,
+  "wd_unlocated": 1191,
+  "wd_unlocated_embassy": 1116,
+  "wd_dropped_dissolved": 244,
+  "wd_wrong_class": 26079,
+  "wd_classes": {
+   "Q2001305": {
+    "n": 5556,
+    "share_named_as_mission": 0.0
+   },
+   "Q2385804": {
+    "n": 20523,
+    "share_named_as_mission": 0.2
+   },
+   "Q3917681": {
+    "n": 8529,
+    "share_named_as_mission": 97.2
+   },
+   "Q5244910": {
+    "n": 152,
+    "share_named_as_mission": 87.5
+   },
+   "Q7843791": {
+    "n": 350,
+    "share_named_as_mission": 77.1
+   }
+  },
+  "by_type": {
+   "embassy": 8917,
+   "high_commission": 406,
+   "nunciature": 92,
+   "delegation": 148,
+   "interests_section": 5,
+   "perm_mission": 352,
+   "consulate_general": 1857,
+   "consulate": 1528,
+   "honorary": 1867,
+   "liaison": 239,
+   "embassy_office": 173
+  },
+  "cities": 1031,
+  "senders": 198,
+  "hosts": 195,
+  "resident_located": 9568,
+  "consular_located": 3385,
+  "flagged": 13,
+  "hand_corrections": 3,
+  "flagged_states": [
+   "Burkina Faso",
+   "El Salvador",
+   "Honduras",
+   "Kiribati",
+   "Nauru",
+   "Nicaragua",
+   "Sao Tome and Principe"
+  ]
+ },
+ "pairs": {
+  "resident_states": 9822,
+  "osm": 8703,
+  "wd": 8253,
+  "both": 7099,
+  "osm_only": 1604,
+  "wd_only": 1154,
+  "possible": 39006,
+  "any_level_states": 10773,
+  "density_pc": 25.2,
+  "mutual": 4002,
+  "one_way": 1818
+ },
+ "coverage": {
+  "benchmarked": 190,
+  "abroad_good": 185,
+  "abroad_partial": 4,
+  "abroad_thin": 0,
+  "hosted_good": 180,
+  "hosted_partial": 5,
+  "hosted_thin": 4,
+  "median_ratio_abroad": 1.2,
+  "median_ratio_hosted": 1.22,
+  "thin_abroad_list": [],
+  "thin_hosted_list": [
+   "Somalia",
+   "Central African Republic",
+   "Tuvalu",
+   "Saint Vincent and the Grenadines"
+  ],
+  "lowy": [
+   {
+    "code": "CN",
+    "name": "China",
+    "lowy": 274,
+    "here": 258,
+    "pct": 94
+   },
+   {
+    "code": "US",
+    "name": "United States",
+    "lowy": 271,
+    "here": 279,
+    "pct": 103
+   },
+   {
+    "code": "TR",
+    "name": "Turkiye",
+    "lowy": 252,
+    "here": 249,
+    "pct": 99
+   },
+   {
+    "code": "JP",
+    "name": "Japan",
+    "lowy": 251,
+    "here": 232,
+    "pct": 92
+   },
+   {
+    "code": "ID",
+    "name": "Indonesia",
+    "lowy": 130,
+    "here": 133,
+    "pct": 102
+   },
+   {
+    "code": "AU",
+    "name": "Australia",
+    "lowy": 124,
+    "here": 130,
+    "pct": 105
+   },
+   {
+    "code": "TW",
+    "name": "Taiwan",
+    "lowy": 110,
+    "here": 93,
+    "pct": 85
+   }
+  ],
+  "lowy_min_pct": 85,
+  "lowy_max_pct": 105
+ },
+ "networks": {
+  "embassies": [
+   {
+    "code": "CN",
+    "name": "China",
+    "n": 178
+   },
+   {
+    "code": "US",
+    "name": "United States",
+    "n": 168
+   },
+   {
+    "code": "FR",
+    "name": "France",
+    "n": 166
+   },
+   {
+    "code": "GB",
+    "name": "United Kingdom",
+    "n": 160
+   },
+   {
+    "code": "JP",
+    "name": "Japan",
+    "n": 159
+   },
+   {
+    "code": "DE",
+    "name": "Germany",
+    "n": 155
+   },
+   {
+    "code": "TR",
+    "name": "Turkiye",
+    "n": 148
+   },
+   {
+    "code": "RU",
+    "name": "Russia",
+    "n": 143
+   },
+   {
+    "code": "BR",
+    "name": "Brazil",
+    "n": 135
+   },
+   {
+    "code": "IN",
+    "name": "India",
+    "n": 133
+   },
+   {
+    "code": "IT",
+    "name": "Italy",
+    "n": 131
+   },
+   {
+    "code": "ES",
+    "name": "Spain",
+    "n": 120
+   },
+   {
+    "code": "NL",
+    "name": "Netherlands",
+    "n": 117
+   },
+   {
+    "code": "KR",
+    "name": "South Korea",
+    "n": 116
+   },
+   {
+    "code": "EG",
+    "name": "Egypt",
+    "n": 111
+   }
+  ],
+  "posts": [
+   {
+    "code": "US",
+    "name": "United States",
+    "n": 279
+   },
+   {
+    "code": "CN",
+    "name": "China",
+    "n": 258
+   },
+   {
+    "code": "FR",
+    "name": "France",
+    "n": 256
+   },
+   {
+    "code": "TR",
+    "name": "Turkiye",
+    "n": 249
+   },
+   {
+    "code": "GB",
+    "name": "United Kingdom",
+    "n": 245
+   },
+   {
+    "code": "JP",
+    "name": "Japan",
+    "n": 232
+   },
+   {
+    "code": "RU",
+    "name": "Russia",
+    "n": 225
+   },
+   {
+    "code": "DE",
+    "name": "Germany",
+    "n": 221
+   },
+   {
+    "code": "IT",
+    "name": "Italy",
+    "n": 214
+   },
+   {
+    "code": "ES",
+    "name": "Spain",
+    "n": 186
+   },
+   {
+    "code": "IN",
+    "name": "India",
+    "n": 184
+   },
+   {
+    "code": "BR",
+    "name": "Brazil",
+    "n": 182
+   },
+   {
+    "code": "CA",
+    "name": "Canada",
+    "n": 164
+   },
+   {
+    "code": "CH",
+    "name": "Switzerland",
+    "n": 158
+   },
+   {
+    "code": "SE",
+    "name": "Sweden",
+    "n": 157
+   }
+  ],
+  "honorary": [
+   {
+    "code": "CZ",
+    "name": "Czechia",
+    "n": 146
+   },
+   {
+    "code": "DE",
+    "name": "Germany",
+    "n": 135
+   },
+   {
+    "code": "AT",
+    "name": "Austria",
+    "n": 55
+   },
+   {
+    "code": "FI",
+    "name": "Finland",
+    "n": 48
+   },
+   {
+    "code": "IE",
+    "name": "Ireland",
+    "n": 46
+   },
+   {
+    "code": "BE",
+    "name": "Belgium",
+    "n": 42
+   },
+   {
+    "code": "SE",
+    "name": "Sweden",
+    "n": 40
+   },
+   {
+    "code": "FR",
+    "name": "France",
+    "n": 37
+   },
+   {
+    "code": "ES",
+    "name": "Spain",
+    "n": 37
+   },
+   {
+    "code": "SK",
+    "name": "Slovakia",
+    "n": 35
+   }
+  ],
+  "eu_delegations": 130,
+  "hosted": [
+   {
+    "code": "BE",
+    "name": "Belgium",
+    "n": 184
+   },
+   {
+    "code": "US",
+    "name": "United States",
+    "n": 180
+   },
+   {
+    "code": "GB",
+    "name": "United Kingdom",
+    "n": 165
+   },
+   {
+    "code": "DE",
+    "name": "Germany",
+    "n": 160
+   },
+   {
+    "code": "FR",
+    "name": "France",
+    "n": 159
+   },
+   {
+    "code": "JP",
+    "name": "Japan",
+    "n": 158
+   },
+   {
+    "code": "CN",
+    "name": "China",
+    "n": 152
+   },
+   {
+    "code": "RU",
+    "name": "Russia",
+    "n": 150
+   },
+   {
+    "code": "IN",
+    "name": "India",
+    "n": 143
+   },
+   {
+    "code": "CH",
+    "name": "Switzerland",
+    "n": 142
+   },
+   {
+    "code": "IT",
+    "name": "Italy",
+    "n": 141
+   },
+   {
+    "code": "TR",
+    "name": "Turkiye",
+    "n": 141
+   },
+   {
+    "code": "ZA",
+    "name": "South Africa",
+    "n": 134
+   },
+   {
+    "code": "BR",
+    "name": "Brazil",
+    "n": 132
+   },
+   {
+    "code": "CA",
+    "name": "Canada",
+    "n": 131
+   }
+  ]
+ },
+ "cities": [
+  {
+   "city": "Washington, D.C.",
+   "host": "US",
+   "country": "United States",
+   "n": 181
+  },
+  {
+   "city": "Brussels",
+   "host": "BE",
+   "country": "Belgium",
+   "n": 178
+  },
+  {
+   "city": "Paris",
+   "host": "FR",
+   "country": "France",
+   "n": 170
+  },
+  {
+   "city": "London",
+   "host": "GB",
+   "country": "United Kingdom",
+   "n": 170
+  },
+  {
+   "city": "Berlin",
+   "host": "DE",
+   "country": "Germany",
+   "n": 168
+  },
+  {
+   "city": "Rome",
+   "host": "IT",
+   "country": "Italy",
+   "n": 150
+  },
+  {
+   "city": "Tokyo",
+   "host": "JP",
+   "country": "Japan",
+   "n": 148
+  },
+  {
+   "city": "Moscow",
+   "host": "RU",
+   "country": "Russia",
+   "n": 148
+  },
+  {
+   "city": "Pretoria",
+   "host": "ZA",
+   "country": "South Africa",
+   "n": 142
+  },
+  {
+   "city": "Ankara",
+   "host": "TR",
+   "country": "Turkiye",
+   "n": 141
+  },
+  {
+   "city": "Brasília",
+   "host": "BR",
+   "country": "Brazil",
+   "n": 132
+  },
+  {
+   "city": "Madrid",
+   "host": "ES",
+   "country": "Spain",
+   "n": 130
+  },
+  {
+   "city": "Vienna",
+   "host": "AT",
+   "country": "Austria",
+   "n": 128
+  },
+  {
+   "city": "Ottawa",
+   "host": "CA",
+   "country": "Canada",
+   "n": 127
+  },
+  {
+   "city": "Beijing",
+   "host": "CN",
+   "country": "China",
+   "n": 116
+  },
+  {
+   "city": "Delhi",
+   "host": "IN",
+   "country": "India",
+   "n": 115
+  },
+  {
+   "city": "Canberra",
+   "host": "AU",
+   "country": "Australia",
+   "n": 114
+  },
+  {
+   "city": "The Hague",
+   "host": "NL",
+   "country": "Netherlands",
+   "n": 111
+  },
+  {
+   "city": "Stockholm",
+   "host": "SE",
+   "country": "Sweden",
+   "n": 110
+  },
+  {
+   "city": "Jakarta",
+   "host": "ID",
+   "country": "Indonesia",
+   "n": 101
+  }
+ ],
+ "consular_cities": [
+  {
+   "city": "Barcelona",
+   "host": "ES",
+   "country": "Spain",
+   "n": 83
+  },
+  {
+   "city": "Istanbul",
+   "host": "TR",
+   "country": "Turkiye",
+   "n": 73
+  },
+  {
+   "city": "Sydney",
+   "host": "AU",
+   "country": "Australia",
+   "n": 72
+  },
+  {
+   "city": "Milan",
+   "host": "IT",
+   "country": "Italy",
+   "n": 70
+  },
+  {
+   "city": "Frankfurt",
+   "host": "DE",
+   "country": "Germany",
+   "n": 50
+  },
+  {
+   "city": "Dubai",
+   "host": "AE",
+   "country": "United Arab Emirates",
+   "n": 46
+  },
+  {
+   "city": "Munich",
+   "host": "DE",
+   "country": "Germany",
+   "n": 44
+  },
+  {
+   "city": "Paris",
+   "host": "FR",
+   "country": "France",
+   "n": 43
+  },
+  {
+   "city": "Chicago",
+   "host": "US",
+   "country": "United States",
+   "n": 35
+  },
+  {
+   "city": "London",
+   "host": "GB",
+   "country": "United Kingdom",
+   "n": 32
+  },
+  {
+   "city": "Rio de Janeiro",
+   "host": "BR",
+   "country": "Brazil",
+   "n": 31
+  },
+  {
+   "city": "Karachi",
+   "host": "PK",
+   "country": "Pakistan",
+   "n": 30
+  }
+ ],
+ "all_cities": [
+  {
+   "city": "Brussels",
+   "host": "BE",
+   "country": "Belgium",
+   "n": 298
+  },
+  {
+   "city": "Rome",
+   "host": "IT",
+   "country": "Italy",
+   "n": 240
+  },
+  {
+   "city": "New York",
+   "host": "US",
+   "country": "United States",
+   "n": 228
+  },
+  {
+   "city": "Paris",
+   "host": "FR",
+   "country": "France",
+   "n": 223
+  },
+  {
+   "city": "London",
+   "host": "GB",
+   "country": "United Kingdom",
+   "n": 206
+  },
+  {
+   "city": "Washington, D.C.",
+   "host": "US",
+   "country": "United States",
+   "n": 193
+  },
+  {
+   "city": "Berlin",
+   "host": "DE",
+   "country": "Germany",
+   "n": 183
+  },
+  {
+   "city": "Vienna",
+   "host": "AT",
+   "country": "Austria",
+   "n": 171
+  },
+  {
+   "city": "Moscow",
+   "host": "RU",
+   "country": "Russia",
+   "n": 163
+  },
+  {
+   "city": "Tokyo",
+   "host": "JP",
+   "country": "Japan",
+   "n": 154
+  },
+  {
+   "city": "Ankara",
+   "host": "TR",
+   "country": "Turkiye",
+   "n": 153
+  },
+  {
+   "city": "Madrid",
+   "host": "ES",
+   "country": "Spain",
+   "n": 151
+  }
+ ],
+ "smallest": [
+  {
+   "code": "VA",
+   "name": "Holy See",
+   "pop": 825,
+   "n": 88,
+   "where": [
+    "Albania",
+    "Algeria",
+    "Angola",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belarus",
+    "Belgium"
+   ]
+  },
+  {
+   "code": "TV",
+   "name": "Tuvalu",
+   "pop": 11646,
+   "n": 4,
+   "where": [
+    "Belgium",
+    "Fiji",
+    "New Zealand",
+    "Taiwan"
+   ]
+  },
+  {
+   "code": "NR",
+   "name": "Nauru",
+   "pop": 12581,
+   "n": 2,
+   "where": [
+    "Fiji",
+    "India"
+   ]
+  },
+  {
+   "code": "PW",
+   "name": "Palau",
+   "pop": 18008,
+   "n": 5,
+   "where": [
+    "Belgium",
+    "Japan",
+    "Philippines",
+    "Taiwan",
+    "United States"
+   ]
+  },
+  {
+   "code": "SM",
+   "name": "San Marino",
+   "pop": 33860,
+   "n": 11,
+   "where": [
+    "Albania",
+    "Austria",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "France",
+    "Holy See",
+    "Indonesia",
+    "Italy"
+   ]
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein",
+   "pop": 38019,
+   "n": 5,
+   "where": [
+    "Austria",
+    "Belgium",
+    "Germany",
+    "Switzerland",
+    "United States"
+   ]
+  },
+  {
+   "code": "MC",
+   "name": "Monaco",
+   "pop": 38964,
+   "n": 10,
+   "where": [
+    "Belgium",
+    "France",
+    "Germany",
+    "Holy See",
+    "Italy",
+    "Portugal",
+    "Spain",
+    "Switzerland"
+   ]
+  },
+  {
+   "code": "KN",
+   "name": "Saint Kitts and Nevis",
+   "pop": 52834,
+   "n": 5,
+   "where": [
+    "Belgium",
+    "Canada",
+    "Taiwan",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "code": "MH",
+   "name": "Marshall Islands",
+   "pop": 58791,
+   "n": 5,
+   "where": [
+    "Fiji",
+    "Japan",
+    "South Korea",
+    "Taiwan",
+    "United States"
+   ]
+  },
+  {
+   "code": "DM",
+   "name": "Dominica",
+   "pop": 71808,
+   "n": 5,
+   "where": [
+    "Belgium",
+    "Cuba",
+    "Egypt",
+    "El Salvador",
+    "United Kingdom"
+   ]
+  }
+ ],
+ "no_embassy_abroad": [
+  "Kiribati"
+ ],
+ "fewest_hosted": [
+  {
+   "code": "LI",
+   "name": "Liechtenstein",
+   "n": 0
+  },
+  {
+   "code": "EH",
+   "name": "Sahrawi Arab Democratic Republic",
+   "n": 0
+  },
+  {
+   "code": "TV",
+   "name": "Tuvalu",
+   "n": 1
+  },
+  {
+   "code": "NR",
+   "name": "Nauru",
+   "n": 1
+  },
+  {
+   "code": "VC",
+   "name": "Saint Vincent and the Grenadines",
+   "n": 1
+  },
+  {
+   "code": "SM",
+   "name": "San Marino",
+   "n": 2
+  },
+  {
+   "code": "MC",
+   "name": "Monaco",
+   "n": 2
+  },
+  {
+   "code": "AD",
+   "name": "Andorra",
+   "n": 2
+  },
+  {
+   "code": "AG",
+   "name": "Antigua and Barbuda",
+   "n": 2
+  },
+  {
+   "code": "DM",
+   "name": "Dominica",
+   "n": 3
+  }
+ ],
+ "seats": [
+  {
+   "code": "IL",
+   "name": "Israel",
+   "official": "Jerusalem",
+   "n_official": 3,
+   "top_city": "Tel Aviv",
+   "n_top": 79,
+   "total": 82,
+   "others": [
+    [
+     "Tel Aviv",
+     79
+    ],
+    [
+     "Jerusalem",
+     3
+    ]
+   ]
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia",
+   "official": "Sucre",
+   "n_official": 0,
+   "top_city": "La Paz",
+   "n_top": 33,
+   "total": 33,
+   "others": [
+    [
+     "La Paz",
+     33
+    ]
+   ]
+  },
+  {
+   "code": "CI",
+   "name": "Cote d'Ivoire",
+   "official": "Yamoussoukro",
+   "n_official": 0,
+   "top_city": "Abidjan",
+   "n_top": 42,
+   "total": 42,
+   "others": [
+    [
+     "Abidjan",
+     42
+    ]
+   ]
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania",
+   "official": "Dodoma",
+   "n_official": 0,
+   "top_city": "Dar es Salaam",
+   "n_top": 61,
+   "total": 61,
+   "others": [
+    [
+     "Dar es Salaam",
+     61
+    ]
+   ]
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "official": "Amsterdam",
+   "n_official": 0,
+   "top_city": "The Hague",
+   "n_top": 111,
+   "total": 112,
+   "others": [
+    [
+     "The Hague",
+     111
+    ],
+    [
+     "Philipsburg",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "official": "Sri Jayawardenepura Kotte",
+   "n_official": 0,
+   "top_city": "Colombo",
+   "n_top": 38,
+   "total": 40,
+   "others": [
+    [
+     "Colombo",
+     38
+    ],
+    [
+     "Kandy",
+     2
+    ]
+   ]
+  },
+  {
+   "code": "BJ",
+   "name": "Benin",
+   "official": "Porto-Novo",
+   "n_official": 0,
+   "top_city": "Cotonou",
+   "n_top": 19,
+   "total": 19,
+   "others": [
+    [
+     "Cotonou",
+     19
+    ]
+   ]
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "official": "Naypyidaw",
+   "n_official": 0,
+   "top_city": "Yangon",
+   "n_top": 46,
+   "total": 46,
+   "others": [
+    [
+     "Yangon",
+     46
+    ]
+   ]
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia",
+   "official": "Kuala Lumpur",
+   "n_official": 79,
+   "top_city": "Kuala Lumpur",
+   "n_top": 79,
+   "total": 79,
+   "others": [
+    [
+     "Kuala Lumpur",
+     79
+    ]
+   ]
+  },
+  {
+   "code": "BI",
+   "name": "Burundi",
+   "official": "Gitega",
+   "n_official": 0,
+   "top_city": "Bujumbura",
+   "n_top": 16,
+   "total": 16,
+   "others": [
+    [
+     "Bujumbura",
+     16
+    ]
+   ]
+  },
+  {
+   "code": "PW",
+   "name": "Palau",
+   "official": "Ngerulmud",
+   "n_official": 0,
+   "top_city": "Koror",
+   "n_top": 4,
+   "total": 4,
+   "others": [
+    [
+     "Koror",
+     4
+    ]
+   ]
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "official": "Bern",
+   "n_official": 85,
+   "top_city": "Bern",
+   "n_top": 85,
+   "total": 86,
+   "others": [
+    [
+     "Bern",
+     85
+    ],
+    [
+     "Geneva",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria",
+   "official": "Abuja",
+   "n_official": 74,
+   "top_city": "Abuja",
+   "n_top": 74,
+   "total": 78,
+   "others": [
+    [
+     "Abuja",
+     74
+    ],
+    [
+     "Lagos",
+     3
+    ],
+    [
+     "Calabar",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "official": "Astana",
+   "n_official": 44,
+   "top_city": "Astana",
+   "n_top": 44,
+   "total": 51,
+   "others": [
+    [
+     "Astana",
+     44
+    ],
+    [
+     "Almaty",
+     4
+    ],
+    [
+     "Mangyshlak",
+     3
+    ]
+   ]
+  },
+  {
+   "code": "BR",
+   "name": "Brazil",
+   "official": "Brasilia",
+   "n_official": 132,
+   "top_city": "Brasília",
+   "n_top": 132,
+   "total": 134,
+   "others": [
+    [
+     "Brasília",
+     132
+    ],
+    [
+     "Recife",
+     1
+    ],
+    [
+     "São Paulo",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "official": "Islamabad",
+   "n_official": 40,
+   "top_city": "Islamabad",
+   "n_top": 40,
+   "total": 65,
+   "others": [
+    [
+     "Islamabad",
+     40
+    ],
+    [
+     "Rawalpindi",
+     21
+    ],
+    [
+     "Karachi",
+     3
+    ],
+    [
+     "Lahore",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "TR",
+   "name": "Turkiye",
+   "official": "Ankara",
+   "n_official": 141,
+   "top_city": "Ankara",
+   "n_top": 141,
+   "total": 141,
+   "others": [
+    [
+     "Ankara",
+     141
+    ]
+   ]
+  },
+  {
+   "code": "AU",
+   "name": "Australia",
+   "official": "Canberra",
+   "n_official": 114,
+   "top_city": "Canberra",
+   "n_top": 114,
+   "total": 114,
+   "others": [
+    [
+     "Canberra",
+     114
+    ]
+   ]
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "official": "Ottawa",
+   "n_official": 127,
+   "top_city": "Ottawa",
+   "n_top": 127,
+   "total": 127,
+   "others": [
+    [
+     "Ottawa",
+     127
+    ]
+   ]
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "official": "Washington",
+   "n_official": 181,
+   "top_city": "Washington, D.C.",
+   "n_top": 181,
+   "total": 182,
+   "others": [
+    [
+     "Washington, D.C.",
+     181
+    ],
+    [
+     "New York",
+     1
+    ]
+   ]
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa",
+   "official": "Pretoria",
+   "n_official": 142,
+   "top_city": "Pretoria",
+   "n_top": 142,
+   "total": 145,
+   "others": [
+    [
+     "Pretoria",
+     142
+    ],
+    [
+     "Cape Town",
+     1
+    ],
+    [
+     "Durban",
+     1
+    ],
+    [
+     "Johannesburg",
+     1
+    ]
+   ]
+  }
+ ],
+ "seats_mismatch": [
+  {
+   "name": "Israel",
+   "official": "Jerusalem",
+   "n_official": 3,
+   "top_city": "Tel Aviv",
+   "n_top": 79,
+   "total": 82
+  },
+  {
+   "name": "Bolivia",
+   "official": "Sucre",
+   "n_official": 0,
+   "top_city": "La Paz",
+   "n_top": 33,
+   "total": 33
+  },
+  {
+   "name": "Cote d'Ivoire",
+   "official": "Yamoussoukro",
+   "n_official": 0,
+   "top_city": "Abidjan",
+   "n_top": 42,
+   "total": 42
+  },
+  {
+   "name": "Tanzania",
+   "official": "Dodoma",
+   "n_official": 0,
+   "top_city": "Dar es Salaam",
+   "n_top": 61,
+   "total": 61
+  },
+  {
+   "name": "Netherlands",
+   "official": "Amsterdam",
+   "n_official": 0,
+   "top_city": "The Hague",
+   "n_top": 111,
+   "total": 112
+  },
+  {
+   "name": "Sri Lanka",
+   "official": "Sri Jayawardenepura Kotte",
+   "n_official": 0,
+   "top_city": "Colombo",
+   "n_top": 38,
+   "total": 40
+  },
+  {
+   "name": "Benin",
+   "official": "Porto-Novo",
+   "n_official": 0,
+   "top_city": "Cotonou",
+   "n_top": 19,
+   "total": 19
+  },
+  {
+   "name": "Myanmar",
+   "official": "Naypyidaw",
+   "n_official": 0,
+   "top_city": "Yangon",
+   "n_top": 46,
+   "total": 46
+  },
+  {
+   "name": "Burundi",
+   "official": "Gitega",
+   "n_official": 0,
+   "top_city": "Bujumbura",
+   "n_top": 16,
+   "total": 16
+  },
+  {
+   "name": "Palau",
+   "official": "Ngerulmud",
+   "n_official": 0,
+   "top_city": "Koror",
+   "n_top": 4,
+   "total": 4
+  }
+ ],
+ "israel": {
+  "embassies": 82,
+  "tel_aviv_area": 79,
+  "jerusalem": 3,
+  "jerusalem_senders": [
+   "Guatemala",
+   "Kosovo",
+   "United States"
+  ],
+  "other": 0
+ },
+ "palestine": {
+  "missions_to": 24,
+  "ramallah_area": 22,
+  "jerusalem": 1,
+  "jerusalem_consulates": 15,
+  "jerusalem_consulate_senders": [
+   "Austria",
+   "Belgium",
+   "Costa Rica",
+   "El Salvador",
+   "Ethiopia",
+   "France",
+   "Greece",
+   "Holy See",
+   "Italy",
+   "Spain",
+   "Sweden",
+   "Turkiye",
+   "United Kingdom"
+  ],
+  "palestine_abroad": 92,
+  "states_with_embassy_level_to_ps": 14,
+  "by_type": {
+   "delegation": 1,
+   "liaison": 5,
+   "embassy": 16,
+   "consulate": 2
+  }
+ },
+ "switzerland": {
+  "embassies": 86,
+  "bern": 85,
+  "geneva_perm_missions": 58,
+  "geneva_all": 82,
+  "geneva_embassies_to_ch": 1,
+  "perm_missions_un_total": 265,
+  "new_york_perm_missions": 197
+ },
+ "brussels": {
+  "perm_missions_eu": 48,
+  "embassies_to_be": 178,
+  "all_missions": 216,
+  "subnational": 83
+ },
+ "moves": {
+  "nigeria": {
+   "country": "Nigeria",
+   "new": "Abuja",
+   "old": "Lagos",
+   "emb_new": 74,
+   "emb_old": 3,
+   "cons_new": 1,
+   "cons_old": 24,
+   "embassies": 78
+  },
+  "brazil": {
+   "country": "Brazil",
+   "new": "Brasilia",
+   "old": "Rio de Janeiro",
+   "emb_new": 132,
+   "emb_old": 0,
+   "cons_new": 0,
+   "cons_old": 31,
+   "embassies": 134
+  },
+  "turkey": {
+   "country": "Turkiye",
+   "new": "Ankara",
+   "old": "Istanbul",
+   "emb_new": 141,
+   "emb_old": 0,
+   "cons_new": 4,
+   "cons_old": 73,
+   "embassies": 141
+  },
+  "kazakhstan": {
+   "country": "Kazakhstan",
+   "new": "Astana",
+   "old": "Almaty",
+   "emb_new": 44,
+   "emb_old": 4,
+   "cons_new": 0,
+   "cons_old": 14,
+   "embassies": 51
+  },
+  "myanmar": {
+   "country": "Myanmar",
+   "new": "Naypyidaw",
+   "old": "Yangon",
+   "emb_new": 0,
+   "emb_old": 46,
+   "cons_new": 0,
+   "cons_old": 0,
+   "embassies": 46
+  },
+  "tanzania": {
+   "country": "Tanzania",
+   "new": "Dodoma",
+   "old": "Dar es Salaam",
+   "emb_new": 0,
+   "emb_old": 61,
+   "cons_new": 0,
+   "cons_old": 2,
+   "embassies": 61
+  },
+  "ivory_coast": {
+   "country": "Cote d'Ivoire",
+   "new": "Yamoussoukro",
+   "old": "Abidjan",
+   "emb_new": 0,
+   "emb_old": 42,
+   "cons_new": 0,
+   "cons_old": 5,
+   "embassies": 42
+  },
+  "pakistan": {
+   "country": "Pakistan",
+   "new": "Islamabad",
+   "old": "Karachi",
+   "emb_new": 61,
+   "emb_old": 3,
+   "cons_new": 6,
+   "cons_old": 30,
+   "embassies": 65
+  },
+  "bolivia": {
+   "country": "Bolivia",
+   "new": "Sucre",
+   "old": "La Paz",
+   "emb_new": 0,
+   "emb_old": 33,
+   "cons_new": 0,
+   "cons_old": 7,
+   "embassies": 33
+  },
+  "netherlands": {
+   "country": "Netherlands",
+   "new": "Amsterdam",
+   "old": "The Hague",
+   "emb_new": 0,
+   "emb_old": 111,
+   "cons_new": 11,
+   "cons_old": 8,
+   "embassies": 112
+  },
+  "saudi": {
+   "country": "Saudi Arabia",
+   "new": "Riyadh",
+   "old": "Jeddah",
+   "emb_new": 92,
+   "emb_old": 1,
+   "cons_new": 0,
+   "cons_old": 22,
+   "embassies": 94
+  },
+  "burundi": {
+   "country": "Burundi",
+   "new": "Gitega",
+   "old": "Bujumbura",
+   "emb_new": 0,
+   "emb_old": 16,
+   "cons_new": 0,
+   "cons_old": 2,
+   "embassies": 16
+  },
+  "benin": {
+   "country": "Benin",
+   "new": "Porto-Novo",
+   "old": "Cotonou",
+   "emb_new": 0,
+   "emb_old": 19,
+   "cons_new": 1,
+   "cons_old": 8,
+   "embassies": 19
+  },
+  "australia": {
+   "country": "Australia",
+   "new": "Canberra",
+   "old": "Sydney",
+   "emb_new": 114,
+   "emb_old": 0,
+   "cons_new": 0,
+   "cons_old": 71,
+   "embassies": 114
+  },
+  "brazil_sp": {
+   "country": "Brazil",
+   "new": "Brasilia",
+   "old": "Sao Paulo",
+   "emb_new": 132,
+   "emb_old": 1,
+   "cons_new": 0,
+   "cons_old": 29,
+   "embassies": 134
+  },
+  "usa_ny": {
+   "country": "United States",
+   "new": "Washington",
+   "old": "New York",
+   "emb_new": 181,
+   "emb_old": 1,
+   "cons_new": 9,
+   "cons_old": 29,
+   "embassies": 182
+  }
+ },
+ "holy_see": {
+  "nunciatures_located": 92,
+  "nunciature_hosts": 88,
+  "embassies_to": 74,
+  "embassies_to_in_rome": 74,
+  "embassies_to_holy_see_pairs": 87,
+  "abroad_rank": 33,
+  "un_without_nunciature_located": [
+   "Afghanistan",
+   "Andorra",
+   "Antigua and Barbuda",
+   "Armenia",
+   "Azerbaijan",
+   "Bahamas",
+   "Bahrain",
+   "Bangladesh",
+   "Barbados",
+   "Belize",
+   "Bhutan",
+   "Botswana",
+   "Brunei",
+   "Burkina Faso",
+   "Cabo Verde",
+   "Cambodia",
+   "Central African Republic",
+   "Chad",
+   "China",
+   "Comoros",
+   "Cote d'Ivoire",
+   "DR Congo",
+   "Denmark",
+   "Djibouti",
+   "Dominica",
+   "El Salvador",
+   "Equatorial Guinea",
+   "Eritrea",
+   "Eswatini",
+   "Fiji",
+   "Finland",
+   "Gabon",
+   "Gambia",
+   "Grenada",
+   "Guatemala",
+   "Guinea",
+   "Guinea-Bissau",
+   "Guyana",
+   "Iceland",
+   "Jamaica",
+   "Jordan",
+   "Kiribati",
+   "Kuwait",
+   "Laos",
+   "Latvia",
+   "Lebanon",
+   "Lesotho",
+   "Libya",
+   "Liechtenstein",
+   "Luxembourg",
+   "Madagascar",
+   "Malawi",
+   "Malaysia",
+   "Maldives",
+   "Mali",
+   "Malta",
+   "Marshall Islands",
+   "Mauritania",
+   "Mauritius",
+   "Mexico"
+  ],
+  "abroad": 88
+ },
+ "taiwan": {
+  "missions": 63,
+  "by_type": {
+   "embassy_office": 2,
+   "liaison": 52,
+   "embassy": 9
+  },
+  "embassy_hosts": [
+   "Belize",
+   "Eswatini",
+   "Guatemala",
+   "Haiti",
+   "Holy See",
+   "Marshall Islands",
+   "Palau",
+   "Paraguay",
+   "Saint Kitts and Nevis",
+   "Saint Lucia",
+   "Saint Vincent and the Grenadines",
+   "Tuvalu"
+  ],
+  "n_embassy_hosts": 12,
+  "liaison_hosts": 58,
+  "to_taiwan": 42,
+  "to_taiwan_embassy_level": [
+   "Holy See",
+   "Paraguay"
+  ],
+  "to_taiwan_liaison": 39,
+  "lowy": 110,
+  "posts": 93,
+  "allies_n": 12
+ },
+ "kosovo": {
+  "embassies_hosted": 25,
+  "senders": [
+   "Albania",
+   "Austria",
+   "Belgium",
+   "Bulgaria",
+   "Croatia",
+   "Czechia",
+   "European Union",
+   "Finland",
+   "France",
+   "Germany",
+   "Hungary",
+   "Italy",
+   "Japan",
+   "Luxembourg",
+   "Montenegro",
+   "Netherlands",
+   "North Macedonia",
+   "Norway",
+   "Slovakia",
+   "Slovenia",
+   "Sweden",
+   "Switzerland",
+   "Turkiye",
+   "United Kingdom",
+   "United States"
+  ],
+  "abroad": 34,
+  "liaison_hosted": 6
+ },
+ "western_sahara": {
+  "missions_in_territory": 2,
+  "by_type": {
+   "consulate_general": 1,
+   "consulate": 1
+  },
+  "cities": {
+   "Laayoune": 2
+  },
+  "senders": [
+   "Comoros",
+   "United Arab Emirates"
+  ],
+  "n_senders": 2,
+  "sadr_abroad": 14,
+  "sadr_hosts": [
+   "Algeria",
+   "Angola",
+   "Botswana",
+   "Cuba",
+   "Ecuador",
+   "Ethiopia",
+   "Mexico",
+   "Nicaragua",
+   "Panama",
+   "South Africa",
+   "Timor-Leste",
+   "Uganda",
+   "Uruguay",
+   "Venezuela"
+  ],
+  "years": []
+ },
+ "eu": {
+  "delegations": 130,
+  "located": 147
+ },
+ "order_of_malta": {
+  "missions": 28,
+  "pairs": 31
+ },
+ "neighbours": {
+  "pairs": 323,
+  "without_embassy": 17,
+  "list": [
+   {
+    "a": "Israel",
+    "b": "Palestine",
+    "codes": [
+     "IL",
+     "PS"
+    ],
+    "km": 14,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "no 2005 benchmark"
+    ]
+   },
+   {
+    "a": "Benin",
+    "b": "Togo",
+    "codes": [
+     "BJ",
+     "TG"
+    ],
+    "km": 146,
+    "other_links": [
+     "consular",
+     "consular"
+    ],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "North Korea",
+    "b": "South Korea",
+    "codes": [
+     "KP",
+     "KR"
+    ],
+    "km": 195,
+    "other_links": [
+     "liaison"
+    ],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Israel",
+    "b": "Syria",
+    "codes": [
+     "IL",
+     "SY"
+    ],
+    "km": 217,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Israel",
+    "b": "Lebanon",
+    "codes": [
+     "IL",
+     "LB"
+    ],
+    "km": 235,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Serbia",
+    "b": "Kosovo",
+    "codes": [
+     "RS",
+     "XK"
+    ],
+    "km": 246,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "no 2005 benchmark"
+    ]
+   },
+   {
+    "a": "Armenia",
+    "b": "Azerbaijan",
+    "codes": [
+     "AM",
+     "AZ"
+    ],
+    "km": 454,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Burkina Faso",
+    "b": "Togo",
+    "codes": [
+     "BF",
+     "TG"
+    ],
+    "km": 756,
+    "other_links": [
+     "consular",
+     "consular"
+    ],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Sahrawi Arab Democratic Republic",
+    "b": "Mauritania",
+    "codes": [
+     "EH",
+     "MR"
+    ],
+    "km": 765,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "no 2005 benchmark",
+     "good"
+    ]
+   },
+   {
+    "a": "Burkina Faso",
+    "b": "Benin",
+    "codes": [
+     "BF",
+     "BJ"
+    ],
+    "km": 798,
+    "other_links": [
+     "consular"
+    ],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Botswana",
+    "b": "Namibia",
+    "codes": [
+     "BW",
+     "NA"
+    ],
+    "km": 928,
+    "other_links": [],
+    "cow2005_directions": 2,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Armenia",
+    "b": "Turkiye",
+    "codes": [
+     "AM",
+     "TR"
+    ],
+    "km": 991,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Sahrawi Arab Democratic Republic",
+    "b": "Morocco",
+    "codes": [
+     "EH",
+     "MA"
+    ],
+    "km": 1227,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "no 2005 benchmark",
+     "good"
+    ]
+   },
+   {
+    "a": "Central African Republic",
+    "b": "South Sudan",
+    "codes": [
+     "CF",
+     "SS"
+    ],
+    "km": 1444,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "thin",
+     "no 2005 benchmark"
+    ]
+   },
+   {
+    "a": "Bolivia",
+    "b": "Chile",
+    "codes": [
+     "BO",
+     "CL"
+    ],
+    "km": 1902,
+    "other_links": [
+     "consular",
+     "consular"
+    ],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   },
+   {
+    "a": "Central African Republic",
+    "b": "Sudan",
+    "codes": [
+     "CF",
+     "SD"
+    ],
+    "km": 1973,
+    "other_links": [],
+    "cow2005_directions": 1,
+    "coverage": [
+     "thin",
+     "good"
+    ]
+   },
+   {
+    "a": "Bhutan",
+    "b": "China",
+    "codes": [
+     "BT",
+     "CN"
+    ],
+    "km": 2820,
+    "other_links": [],
+    "cow2005_directions": 0,
+    "coverage": [
+     "good",
+     "good"
+    ]
+   }
+  ],
+  "both_ways": 273
+ },
+ "clusters": [
+  {
+   "city": "New York",
+   "country": "United States",
+   "n": 182,
+   "lat": 40.7535,
+   "lon": -73.9734
+  },
+  {
+   "city": "Washington, D.C.",
+   "country": "United States",
+   "n": 95,
+   "lat": 38.9114,
+   "lon": -77.0471
+  },
+  {
+   "city": "Beijing",
+   "country": "China",
+   "n": 73,
+   "lat": 39.9375,
+   "lon": 116.4519
+  },
+  {
+   "city": "The Hague",
+   "country": "Netherlands",
+   "n": 70,
+   "lat": 52.0857,
+   "lon": 4.3019
+  },
+  {
+   "city": "Riyadh",
+   "country": "Saudi Arabia",
+   "n": 66,
+   "lat": 24.6811,
+   "lon": 46.6267
+  },
+  {
+   "city": "Paris",
+   "country": "France",
+   "n": 65,
+   "lat": 48.8686,
+   "lon": 2.286
+  },
+  {
+   "city": "Vienna",
+   "country": "Austria",
+   "n": 62,
+   "lat": 48.2037,
+   "lon": 16.3764
+  },
+  {
+   "city": "Ottawa",
+   "country": "Canada",
+   "n": 61,
+   "lat": 45.4201,
+   "lon": -75.694
+  },
+  {
+   "city": "Ankara",
+   "country": "Turkiye",
+   "n": 59,
+   "lat": 39.8939,
+   "lon": 32.8667
+  },
+  {
+   "city": "Rome",
+   "country": "Italy",
+   "n": 58,
+   "lat": 41.9205,
+   "lon": 12.4937
+  },
+  {
+   "city": "Bern",
+   "country": "Switzerland",
+   "n": 53,
+   "lat": 46.9414,
+   "lon": 7.4565
+  },
+  {
+   "city": "Havana",
+   "country": "Cuba",
+   "n": 51,
+   "lat": 23.1178,
+   "lon": -82.4237
+  },
+  {
+   "city": "Delhi",
+   "country": "India",
+   "n": 51,
+   "lat": 28.5935,
+   "lon": 77.1866
+  },
+  {
+   "city": "Brussels",
+   "country": "Belgium",
+   "n": 50,
+   "lat": 50.8439,
+   "lon": 4.3738
+  },
+  {
+   "city": "London",
+   "country": "United Kingdom",
+   "n": 50,
+   "lat": 51.5003,
+   "lon": -0.15
+  }
+ ],
+ "odd_pairs": {
+  "n": 175,
+  "list": [
+   {
+    "sender": "Switzerland",
+    "receiver": "New Zealand",
+    "km": 18827,
+    "pops": [
+     8574832,
+     4917000
+    ],
+    "city": "Wellington"
+   },
+   {
+    "sender": "Panama",
+    "receiver": "Singapore",
+    "km": 18814,
+    "pops": [
+     4246439,
+     5703569
+    ],
+    "city": "Singapore"
+   },
+   {
+    "sender": "New Zealand",
+    "receiver": "Belgium",
+    "km": 18726,
+    "pops": [
+     4917000,
+     11484055
+    ],
+    "city": "Brussels"
+   },
+   {
+    "sender": "Ireland",
+    "receiver": "New Zealand",
+    "km": 18675,
+    "pops": [
+     4941444,
+     4917000
+    ],
+    "city": "Wellington"
+   },
+   {
+    "sender": "New Zealand",
+    "receiver": "Ireland",
+    "km": 18675,
+    "pops": [
+     4917000,
+     4941444
+    ],
+    "city": "Dublin"
+   },
+   {
+    "sender": "Costa Rica",
+    "receiver": "Singapore",
+    "km": 18488,
+    "pops": [
+     5047561,
+     5703569
+    ],
+    "city": ""
+   },
+   {
+    "sender": "New Zealand",
+    "receiver": "Austria",
+    "km": 18154,
+    "pops": [
+     4917000,
+     8877067
+    ],
+    "city": "Vienna"
+   },
+   {
+    "sender": "Hungary",
+    "receiver": "New Zealand",
+    "km": 17975,
+    "pops": [
+     9769949,
+     4917000
+    ],
+    "city": "Wellington"
+   },
+   {
+    "sender": "New Zealand",
+    "receiver": "Sweden",
+    "km": 17441,
+    "pops": [
+     4917000,
+     10285453
+    ],
+    "city": "Stockholm"
+   },
+   {
+    "sender": "Sweden",
+    "receiver": "New Zealand",
+    "km": 17441,
+    "pops": [
+     10285453,
+     4917000
+    ],
+    "city": ""
+   },
+   {
+    "sender": "Timor-Leste",
+    "receiver": "Cuba",
+    "km": 16626,
+    "pops": [
+     1293119,
+     11333483
+    ],
+    "city": "Havana"
+   },
+   {
+    "sender": "Cuba",
+    "receiver": "Timor-Leste",
+    "km": 16626,
+    "pops": [
+     11333483,
+     1293119
+    ],
+    "city": "Dili"
+   },
+   {
+    "sender": "Fiji",
+    "receiver": "Belgium",
+    "km": 16342,
+    "pops": [
+     889953,
+     11484055
+    ],
+    "city": "Brussels"
+   },
+   {
+    "sender": "Israel",
+    "receiver": "New Zealand",
+    "km": 16289,
+    "pops": [
+     9053300,
+     4917000
+    ],
+    "city": "Wellington"
+   },
+   {
+    "sender": "Vanuatu",
+    "receiver": "Belgium",
+    "km": 16070,
+    "pops": [
+     299882,
+     11484055
+    ],
+    "city": "Brussels"
+   },
+   {
+    "sender": "Samoa",
+    "receiver": "Belgium",
+    "km": 15886,
+    "pops": [
+     197097,
+     11484055
+    ],
+    "city": "Brussels"
+   },
+   {
+    "sender": "Laos",
+    "receiver": "Cuba",
+    "km": 15413,
+    "pops": [
+     7169455,
+     11333483
+    ],
+    "city": "Havana"
+   },
+   {
+    "sender": "Tuvalu",
+    "receiver": "Belgium",
+    "km": 15286,
+    "pops": [
+     11646,
+     11484055
+    ],
+    "city": ""
+   },
+   {
+    "sender": "Sahrawi Arab Democratic Republic",
+    "receiver": "Timor-Leste",
+    "km": 15250,
+    "pops": [
+     603253,
+     1293119
+    ],
+    "city": ""
+   },
+   {
+    "sender": "Kuwait",
+    "receiver": "New Zealand",
+    "km": 15092,
+    "pops": [
+     4207083,
+     4917000
+    ],
+    "city": "Wellington"
+   }
+  ]
+ },
+ "longest": [
+  {
+   "sender": "Taiwan",
+   "receiver": "Paraguay",
+   "km": 19931
+  },
+  {
+   "sender": "Paraguay",
+   "receiver": "Taiwan",
+   "km": 19931
+  },
+  {
+   "sender": "New Zealand",
+   "receiver": "Spain",
+   "km": 19852
+  },
+  {
+   "sender": "Spain",
+   "receiver": "New Zealand",
+   "km": 19852
+  },
+  {
+   "sender": "Indonesia",
+   "receiver": "Colombia",
+   "km": 19813
+  },
+  {
+   "sender": "Colombia",
+   "receiver": "Indonesia",
+   "km": 19813
+  },
+  {
+   "sender": "Thailand",
+   "receiver": "Peru",
+   "km": 19690
+  },
+  {
+   "sender": "Peru",
+   "receiver": "Thailand",
+   "km": 19690
+  }
+ ],
+ "opening_years": {
+  "n": 935,
+  "median": 1977,
+  "since_2000": 214,
+  "hist": {
+   "1900": 4,
+   "1910": 50,
+   "1920": 69,
+   "1930": 31,
+   "1940": 44,
+   "1950": 78,
+   "1960": 96,
+   "1970": 79,
+   "1980": 28,
+   "1990": 213,
+   "2000": 100,
+   "2010": 94,
+   "2020": 20
+  },
+  "before_1900": 29
+ },
+ "cow": {
+  "years": [
+   1817,
+   1824,
+   1827,
+   1832,
+   1836,
+   1840,
+   1844,
+   1849,
+   1854,
+   1859,
+   1864,
+   1869,
+   1874,
+   1879,
+   1884,
+   1889,
+   1894,
+   1899,
+   1904,
+   1909,
+   1914,
+   1920,
+   1925,
+   1930,
+   1935,
+   1940,
+   1950,
+   1955,
+   1960,
+   1965,
+   1970,
+   1975,
+   1980,
+   1985,
+   1990,
+   1995,
+   2000,
+   2005
+  ],
+  "first": 1817,
+  "last": 2005,
+  "codes": 213,
+  "pairs_ever": 7838,
+  "series": [
+   {
+    "year": 1817,
+    "states": 23,
+    "possible": 506,
+    "rep": 198,
+    "levels": true,
+    "amb": 23,
+    "mutual_amb_pairs": 6,
+    "mutual_rep_pairs": 55,
+    "density": 39.1,
+    "amb_share": 11.6,
+    "other9": 20,
+    "states_sending_amb": 6,
+    "top_hosts": [
+     [
+      "France",
+      13
+     ],
+     [
+      "United Kingdom",
+      12
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      12
+     ],
+     [
+      "Bavaria",
+      12
+     ],
+     [
+      "Netherlands",
+      11
+     ]
+    ],
+    "top_senders": [
+     [
+      "Prussia, then Germany",
+      20
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      20
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      19
+     ],
+     [
+      "France",
+      18
+     ],
+     [
+      "United Kingdom",
+      17
+     ]
+    ]
+   },
+   {
+    "year": 1824,
+    "states": 23,
+    "possible": 506,
+    "rep": 210,
+    "levels": true,
+    "amb": 21,
+    "mutual_amb_pairs": 7,
+    "mutual_rep_pairs": 58,
+    "density": 41.5,
+    "amb_share": 10.0,
+    "other9": 51,
+    "states_sending_amb": 7,
+    "top_hosts": [
+     [
+      "France",
+      14
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      12
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      12
+     ],
+     [
+      "Bavaria",
+      11
+     ],
+     [
+      "Saxony",
+      11
+     ]
+    ],
+    "top_senders": [
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      21
+     ],
+     [
+      "France",
+      20
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      20
+     ],
+     [
+      "Prussia, then Germany",
+      19
+     ],
+     [
+      "United Kingdom",
+      16
+     ]
+    ]
+   },
+   {
+    "year": 1827,
+    "states": 25,
+    "possible": 600,
+    "rep": 246,
+    "levels": true,
+    "amb": 26,
+    "mutual_amb_pairs": 8,
+    "mutual_rep_pairs": 79,
+    "density": 41.0,
+    "amb_share": 10.6,
+    "other9": 38,
+    "states_sending_amb": 8,
+    "top_hosts": [
+     [
+      "France",
+      15
+     ],
+     [
+      "Netherlands",
+      13
+     ],
+     [
+      "Portugal",
+      13
+     ],
+     [
+      "United Kingdom",
+      12
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      12
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      22
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      22
+     ],
+     [
+      "Prussia, then Germany",
+      21
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      20
+     ],
+     [
+      "Netherlands",
+      20
+     ]
+    ]
+   },
+   {
+    "year": 1832,
+    "states": 29,
+    "possible": 812,
+    "rep": 273,
+    "levels": true,
+    "amb": 26,
+    "mutual_amb_pairs": 7,
+    "mutual_rep_pairs": 85,
+    "density": 33.6,
+    "amb_share": 9.5,
+    "other9": 53,
+    "states_sending_amb": 6,
+    "top_hosts": [
+     [
+      "France",
+      16
+     ],
+     [
+      "United Kingdom",
+      16
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      15
+     ],
+     [
+      "Bavaria",
+      14
+     ],
+     [
+      "Netherlands",
+      14
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      25
+     ],
+     [
+      "United Kingdom",
+      23
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      22
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      22
+     ],
+     [
+      "Prussia, then Germany",
+      22
+     ]
+    ]
+   },
+   {
+    "year": 1836,
+    "states": 29,
+    "possible": 812,
+    "rep": 272,
+    "levels": true,
+    "amb": 21,
+    "mutual_amb_pairs": 7,
+    "mutual_rep_pairs": 93,
+    "density": 33.5,
+    "amb_share": 7.7,
+    "other9": 40,
+    "states_sending_amb": 5,
+    "top_hosts": [
+     [
+      "United Kingdom",
+      18
+     ],
+     [
+      "France",
+      18
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      15
+     ],
+     [
+      "Netherlands",
+      13
+     ],
+     [
+      "Bavaria",
+      13
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      25
+     ],
+     [
+      "United Kingdom",
+      23
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      23
+     ],
+     [
+      "Prussia, then Germany",
+      22
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      21
+     ]
+    ]
+   },
+   {
+    "year": 1840,
+    "states": 32,
+    "possible": 992,
+    "rep": 299,
+    "levels": true,
+    "amb": 27,
+    "mutual_amb_pairs": 10,
+    "mutual_rep_pairs": 104,
+    "density": 30.1,
+    "amb_share": 9.0,
+    "other9": 35,
+    "states_sending_amb": 8,
+    "top_hosts": [
+     [
+      "France",
+      19
+     ],
+     [
+      "United Kingdom",
+      16
+     ],
+     [
+      "United States",
+      15
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      14
+     ],
+     [
+      "Bavaria",
+      13
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      30
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      24
+     ],
+     [
+      "Prussia, then Germany",
+      24
+     ],
+     [
+      "United Kingdom",
+      23
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      21
+     ]
+    ]
+   },
+   {
+    "year": 1844,
+    "states": 36,
+    "possible": 1260,
+    "rep": 360,
+    "levels": true,
+    "amb": 24,
+    "mutual_amb_pairs": 9,
+    "mutual_rep_pairs": 116,
+    "density": 28.6,
+    "amb_share": 6.7,
+    "other9": 37,
+    "states_sending_amb": 7,
+    "top_hosts": [
+     [
+      "France",
+      20
+     ],
+     [
+      "United Kingdom",
+      18
+     ],
+     [
+      "United States",
+      16
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      15
+     ],
+     [
+      "Netherlands",
+      14
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      33
+     ],
+     [
+      "United Kingdom",
+      31
+     ],
+     [
+      "Prussia, then Germany",
+      28
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      26
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      25
+     ]
+    ]
+   },
+   {
+    "year": 1849,
+    "states": 39,
+    "possible": 1482,
+    "rep": 371,
+    "levels": true,
+    "amb": 12,
+    "mutual_amb_pairs": 1,
+    "mutual_rep_pairs": 113,
+    "density": 25.0,
+    "amb_share": 3.2,
+    "other9": 32,
+    "states_sending_amb": 6,
+    "top_hosts": [
+     [
+      "France",
+      21
+     ],
+     [
+      "United Kingdom",
+      20
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      17
+     ],
+     [
+      "United States",
+      17
+     ],
+     [
+      "Belgium",
+      15
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      33
+     ],
+     [
+      "United Kingdom",
+      32
+     ],
+     [
+      "Prussia, then Germany",
+      25
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      24
+     ],
+     [
+      "Belgium",
+      24
+     ]
+    ]
+   },
+   {
+    "year": 1854,
+    "states": 41,
+    "possible": 1640,
+    "rep": 458,
+    "levels": true,
+    "amb": 7,
+    "mutual_amb_pairs": 0,
+    "mutual_rep_pairs": 140,
+    "density": 27.9,
+    "amb_share": 1.5,
+    "other9": 56,
+    "states_sending_amb": 5,
+    "top_hosts": [
+     [
+      "France",
+      23
+     ],
+     [
+      "United Kingdom",
+      21
+     ],
+     [
+      "United States",
+      19
+     ],
+     [
+      "Papal States",
+      19
+     ],
+     [
+      "Spain",
+      18
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      37
+     ],
+     [
+      "France",
+      36
+     ],
+     [
+      "Prussia, then Germany",
+      30
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      29
+     ],
+     [
+      "Belgium",
+      28
+     ]
+    ]
+   },
+   {
+    "year": 1859,
+    "states": 44,
+    "possible": 1892,
+    "rep": 476,
+    "levels": true,
+    "amb": 17,
+    "mutual_amb_pairs": 4,
+    "mutual_rep_pairs": 149,
+    "density": 25.2,
+    "amb_share": 3.6,
+    "other9": 60,
+    "states_sending_amb": 6,
+    "top_hosts": [
+     [
+      "France",
+      24
+     ],
+     [
+      "United Kingdom",
+      23
+     ],
+     [
+      "Bavaria",
+      18
+     ],
+     [
+      "Papal States",
+      18
+     ],
+     [
+      "United States",
+      18
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "France",
+      37
+     ],
+     [
+      "Prussia, then Germany",
+      32
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      29
+     ],
+     [
+      "Brazil",
+      28
+     ]
+    ]
+   },
+   {
+    "year": 1864,
+    "states": 41,
+    "possible": 1640,
+    "rep": 436,
+    "levels": true,
+    "amb": 25,
+    "mutual_amb_pairs": 10,
+    "mutual_rep_pairs": 145,
+    "density": 26.6,
+    "amb_share": 5.7,
+    "other9": 38,
+    "states_sending_amb": 8,
+    "top_hosts": [
+     [
+      "France",
+      23
+     ],
+     [
+      "United Kingdom",
+      21
+     ],
+     [
+      "United States",
+      18
+     ],
+     [
+      "Spain",
+      17
+     ],
+     [
+      "Hanover",
+      17
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      37
+     ],
+     [
+      "France",
+      36
+     ],
+     [
+      "Prussia, then Germany",
+      28
+     ],
+     [
+      "Spain",
+      27
+     ],
+     [
+      "United States",
+      26
+     ]
+    ]
+   },
+   {
+    "year": 1869,
+    "states": 37,
+    "possible": 1332,
+    "rep": 390,
+    "levels": true,
+    "amb": 27,
+    "mutual_amb_pairs": 11,
+    "mutual_rep_pairs": 146,
+    "density": 29.3,
+    "amb_share": 6.9,
+    "other9": 9,
+    "states_sending_amb": 7,
+    "top_hosts": [
+     [
+      "France",
+      26
+     ],
+     [
+      "United States",
+      24
+     ],
+     [
+      "United Kingdom",
+      23
+     ],
+     [
+      "Italy",
+      18
+     ],
+     [
+      "Prussia, then Germany",
+      18
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      31
+     ],
+     [
+      "France",
+      31
+     ],
+     [
+      "United Kingdom",
+      31
+     ],
+     [
+      "Italy",
+      27
+     ],
+     [
+      "Prussia, then Germany",
+      23
+     ]
+    ]
+   },
+   {
+    "year": 1874,
+    "states": 33,
+    "possible": 1056,
+    "rep": 366,
+    "levels": true,
+    "amb": 30,
+    "mutual_amb_pairs": 14,
+    "mutual_rep_pairs": 144,
+    "density": 34.7,
+    "amb_share": 8.2,
+    "other9": 7,
+    "states_sending_amb": 7,
+    "top_hosts": [
+     [
+      "France",
+      25
+     ],
+     [
+      "United Kingdom",
+      24
+     ],
+     [
+      "United States",
+      24
+     ],
+     [
+      "Prussia, then Germany",
+      20
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      18
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      28
+     ],
+     [
+      "France",
+      28
+     ],
+     [
+      "United States",
+      27
+     ],
+     [
+      "Prussia, then Germany",
+      24
+     ],
+     [
+      "Italy",
+      24
+     ]
+    ]
+   },
+   {
+    "year": 1879,
+    "states": 37,
+    "possible": 1332,
+    "rep": 407,
+    "levels": true,
+    "amb": 44,
+    "mutual_amb_pairs": 21,
+    "mutual_rep_pairs": 160,
+    "density": 30.6,
+    "amb_share": 10.8,
+    "other9": 0,
+    "states_sending_amb": 8,
+    "top_hosts": [
+     [
+      "United Kingdom",
+      27
+     ],
+     [
+      "France",
+      27
+     ],
+     [
+      "Prussia, then Germany",
+      24
+     ],
+     [
+      "United States",
+      22
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      19
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      29
+     ],
+     [
+      "United Kingdom",
+      29
+     ],
+     [
+      "France",
+      29
+     ],
+     [
+      "Prussia, then Germany",
+      28
+     ],
+     [
+      "Italy",
+      27
+     ]
+    ]
+   },
+   {
+    "year": 1884,
+    "states": 36,
+    "possible": 1260,
+    "rep": 489,
+    "levels": true,
+    "amb": 47,
+    "mutual_amb_pairs": 23,
+    "mutual_rep_pairs": 198,
+    "density": 38.8,
+    "amb_share": 9.6,
+    "other9": 0,
+    "states_sending_amb": 9,
+    "top_hosts": [
+     [
+      "France",
+      31
+     ],
+     [
+      "Prussia, then Germany",
+      29
+     ],
+     [
+      "United Kingdom",
+      28
+     ],
+     [
+      "Italy",
+      24
+     ],
+     [
+      "Spain",
+      24
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      32
+     ],
+     [
+      "United Kingdom",
+      32
+     ],
+     [
+      "United States",
+      31
+     ],
+     [
+      "Italy",
+      29
+     ],
+     [
+      "Prussia, then Germany",
+      26
+     ]
+    ]
+   },
+   {
+    "year": 1889,
+    "states": 38,
+    "possible": 1406,
+    "rep": 522,
+    "levels": true,
+    "amb": 52,
+    "mutual_amb_pairs": 24,
+    "mutual_rep_pairs": 221,
+    "density": 37.1,
+    "amb_share": 10.0,
+    "other9": 0,
+    "states_sending_amb": 9,
+    "top_hosts": [
+     [
+      "France",
+      34
+     ],
+     [
+      "Prussia, then Germany",
+      31
+     ],
+     [
+      "United Kingdom",
+      30
+     ],
+     [
+      "United States",
+      28
+     ],
+     [
+      "Italy",
+      27
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      34
+     ],
+     [
+      "United States",
+      33
+     ],
+     [
+      "United Kingdom",
+      33
+     ],
+     [
+      "Prussia, then Germany",
+      32
+     ],
+     [
+      "Spain",
+      31
+     ]
+    ]
+   },
+   {
+    "year": 1894,
+    "states": 39,
+    "possible": 1482,
+    "rep": 581,
+    "levels": true,
+    "amb": 63,
+    "mutual_amb_pairs": 29,
+    "mutual_rep_pairs": 245,
+    "density": 39.2,
+    "amb_share": 10.8,
+    "other9": 0,
+    "states_sending_amb": 12,
+    "top_hosts": [
+     [
+      "Prussia, then Germany",
+      33
+     ],
+     [
+      "France",
+      33
+     ],
+     [
+      "United Kingdom",
+      32
+     ],
+     [
+      "Spain",
+      29
+     ],
+     [
+      "Italy",
+      28
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      36
+     ],
+     [
+      "France",
+      35
+     ],
+     [
+      "United Kingdom",
+      34
+     ],
+     [
+      "Prussia, then Germany",
+      34
+     ],
+     [
+      "Italy",
+      31
+     ]
+    ]
+   },
+   {
+    "year": 1899,
+    "states": 41,
+    "possible": 1640,
+    "rep": 628,
+    "levels": true,
+    "amb": 64,
+    "mutual_amb_pairs": 31,
+    "mutual_rep_pairs": 261,
+    "density": 38.3,
+    "amb_share": 10.2,
+    "other9": 0,
+    "states_sending_amb": 10,
+    "top_hosts": [
+     [
+      "Prussia, then Germany",
+      36
+     ],
+     [
+      "United Kingdom",
+      36
+     ],
+     [
+      "France",
+      35
+     ],
+     [
+      "Italy",
+      29
+     ],
+     [
+      "United States",
+      29
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      38
+     ],
+     [
+      "United States",
+      37
+     ],
+     [
+      "Italy",
+      36
+     ],
+     [
+      "United Kingdom",
+      35
+     ],
+     [
+      "Prussia, then Germany",
+      35
+     ]
+    ]
+   },
+   {
+    "year": 1904,
+    "states": 43,
+    "possible": 1806,
+    "rep": 738,
+    "levels": true,
+    "amb": 72,
+    "mutual_amb_pairs": 35,
+    "mutual_rep_pairs": 313,
+    "density": 40.9,
+    "amb_share": 9.8,
+    "other9": 23,
+    "states_sending_amb": 12,
+    "top_hosts": [
+     [
+      "United Kingdom",
+      38
+     ],
+     [
+      "Prussia, then Germany",
+      38
+     ],
+     [
+      "France",
+      38
+     ],
+     [
+      "United States",
+      35
+     ],
+     [
+      "Italy",
+      33
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      41
+     ],
+     [
+      "Prussia, then Germany",
+      41
+     ],
+     [
+      "Italy",
+      39
+     ],
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "United States",
+      39
+     ]
+    ]
+   },
+   {
+    "year": 1909,
+    "states": 44,
+    "possible": 1892,
+    "rep": 835,
+    "levels": true,
+    "amb": 83,
+    "mutual_amb_pairs": 37,
+    "mutual_rep_pairs": 352,
+    "density": 44.1,
+    "amb_share": 9.9,
+    "other9": 30,
+    "states_sending_amb": 12,
+    "top_hosts": [
+     [
+      "United States",
+      39
+     ],
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "France",
+      38
+     ],
+     [
+      "Prussia, then Germany",
+      36
+     ],
+     [
+      "Spain",
+      35
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      42
+     ],
+     [
+      "France",
+      42
+     ],
+     [
+      "United Kingdom",
+      42
+     ],
+     [
+      "Italy",
+      41
+     ],
+     [
+      "Prussia, then Germany",
+      41
+     ]
+    ]
+   },
+   {
+    "year": 1914,
+    "states": 44,
+    "possible": 1892,
+    "rep": 922,
+    "levels": true,
+    "amb": 93,
+    "mutual_amb_pairs": 44,
+    "mutual_rep_pairs": 403,
+    "density": 48.7,
+    "amb_share": 10.1,
+    "other9": 52,
+    "states_sending_amb": 14,
+    "top_hosts": [
+     [
+      "United States",
+      40
+     ],
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "France",
+      39
+     ],
+     [
+      "Prussia, then Germany",
+      38
+     ],
+     [
+      "Italy",
+      37
+     ]
+    ],
+    "top_senders": [
+     [
+      "Italy",
+      43
+     ],
+     [
+      "France",
+      43
+     ],
+     [
+      "Prussia, then Germany",
+      43
+     ],
+     [
+      "United Kingdom",
+      41
+     ],
+     [
+      "United States",
+      40
+     ]
+    ]
+   },
+   {
+    "year": 1920,
+    "states": 59,
+    "possible": 3422,
+    "rep": 979,
+    "levels": true,
+    "amb": 59,
+    "mutual_amb_pairs": 23,
+    "mutual_rep_pairs": 368,
+    "density": 28.6,
+    "amb_share": 6.0,
+    "other9": 106,
+    "states_sending_amb": 17,
+    "top_hosts": [
+     [
+      "France",
+      42
+     ],
+     [
+      "Spain",
+      40
+     ],
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "Italy",
+      38
+     ],
+     [
+      "United States",
+      38
+     ]
+    ],
+    "top_senders": [
+     [
+      "Italy",
+      46
+     ],
+     [
+      "United States",
+      44
+     ],
+     [
+      "France",
+      44
+     ],
+     [
+      "United Kingdom",
+      43
+     ],
+     [
+      "Spain",
+      40
+     ]
+    ]
+   },
+   {
+    "year": 1925,
+    "states": 62,
+    "possible": 3782,
+    "rep": 1307,
+    "levels": true,
+    "amb": 115,
+    "mutual_amb_pairs": 48,
+    "mutual_rep_pairs": 514,
+    "density": 34.6,
+    "amb_share": 8.8,
+    "other9": 97,
+    "states_sending_amb": 19,
+    "top_hosts": [
+     [
+      "United Kingdom",
+      50
+     ],
+     [
+      "France",
+      49
+     ],
+     [
+      "Italy",
+      46
+     ],
+     [
+      "United States",
+      46
+     ],
+     [
+      "Prussia, then Germany",
+      44
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      54
+     ],
+     [
+      "France",
+      54
+     ],
+     [
+      "United States",
+      52
+     ],
+     [
+      "Prussia, then Germany",
+      52
+     ],
+     [
+      "Italy",
+      52
+     ]
+    ]
+   },
+   {
+    "year": 1930,
+    "states": 64,
+    "possible": 4032,
+    "rep": 1452,
+    "levels": true,
+    "amb": 147,
+    "mutual_amb_pairs": 65,
+    "mutual_rep_pairs": 609,
+    "density": 36.0,
+    "amb_share": 10.1,
+    "other9": 105,
+    "states_sending_amb": 22,
+    "top_hosts": [
+     [
+      "France",
+      53
+     ],
+     [
+      "United Kingdom",
+      51
+     ],
+     [
+      "United States",
+      50
+     ],
+     [
+      "Italy",
+      49
+     ],
+     [
+      "Prussia, then Germany",
+      47
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      55
+     ],
+     [
+      "France",
+      55
+     ],
+     [
+      "United States",
+      54
+     ],
+     [
+      "Prussia, then Germany",
+      54
+     ],
+     [
+      "Italy",
+      52
+     ]
+    ]
+   },
+   {
+    "year": 1935,
+    "states": 66,
+    "possible": 4290,
+    "rep": 1586,
+    "levels": true,
+    "amb": 183,
+    "mutual_amb_pairs": 86,
+    "mutual_rep_pairs": 657,
+    "density": 37.0,
+    "amb_share": 11.5,
+    "other9": 37,
+    "states_sending_amb": 23,
+    "top_hosts": [
+     [
+      "France",
+      54
+     ],
+     [
+      "United Kingdom",
+      53
+     ],
+     [
+      "United States",
+      52
+     ],
+     [
+      "Italy",
+      50
+     ],
+     [
+      "Belgium",
+      48
+     ]
+    ],
+    "top_senders": [
+     [
+      "United Kingdom",
+      58
+     ],
+     [
+      "France",
+      57
+     ],
+     [
+      "United States",
+      57
+     ],
+     [
+      "Italy",
+      56
+     ],
+     [
+      "Prussia, then Germany",
+      56
+     ]
+    ]
+   },
+   {
+    "year": 1940,
+    "states": 62,
+    "possible": 3782,
+    "rep": 1572,
+    "levels": true,
+    "amb": 213,
+    "mutual_amb_pairs": 101,
+    "mutual_rep_pairs": 682,
+    "density": 41.6,
+    "amb_share": 13.5,
+    "other9": 2,
+    "states_sending_amb": 30,
+    "top_hosts": [
+     [
+      "France",
+      55
+     ],
+     [
+      "United Kingdom",
+      52
+     ],
+     [
+      "United States",
+      52
+     ],
+     [
+      "Belgium",
+      52
+     ],
+     [
+      "Italy",
+      48
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      56
+     ],
+     [
+      "France",
+      55
+     ],
+     [
+      "United Kingdom",
+      54
+     ],
+     [
+      "Belgium",
+      52
+     ],
+     [
+      "Italy",
+      51
+     ]
+    ]
+   },
+   {
+    "year": 1950,
+    "states": 75,
+    "possible": 5550,
+    "rep": 1820,
+    "levels": false,
+    "amb": null,
+    "mutual_amb_pairs": null,
+    "mutual_rep_pairs": 750,
+    "density": 32.8,
+    "amb_share": null,
+    "other9": 1820,
+    "states_sending_amb": null,
+    "top_hosts": [
+     [
+      "United States",
+      69
+     ],
+     [
+      "France",
+      66
+     ],
+     [
+      "United Kingdom",
+      66
+     ],
+     [
+      "Italy",
+      51
+     ],
+     [
+      "Belgium",
+      48
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      69
+     ],
+     [
+      "United Kingdom",
+      66
+     ],
+     [
+      "France",
+      62
+     ],
+     [
+      "Italy",
+      59
+     ],
+     [
+      "Belgium",
+      59
+     ]
+    ]
+   },
+   {
+    "year": 1955,
+    "states": 84,
+    "possible": 6972,
+    "rep": 2472,
+    "levels": false,
+    "amb": null,
+    "mutual_amb_pairs": null,
+    "mutual_rep_pairs": 946,
+    "density": 35.5,
+    "amb_share": null,
+    "other9": 2472,
+    "states_sending_amb": null,
+    "top_hosts": [
+     [
+      "United States",
+      76
+     ],
+     [
+      "United Kingdom",
+      72
+     ],
+     [
+      "France",
+      66
+     ],
+     [
+      "Italy",
+      64
+     ],
+     [
+      "Belgium",
+      56
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      75
+     ],
+     [
+      "United Kingdom",
+      72
+     ],
+     [
+      "Italy",
+      71
+     ],
+     [
+      "Netherlands",
+      67
+     ],
+     [
+      "France",
+      66
+     ]
+    ]
+   },
+   {
+    "year": 1960,
+    "states": 107,
+    "possible": 11342,
+    "rep": 2877,
+    "levels": false,
+    "amb": null,
+    "mutual_amb_pairs": null,
+    "mutual_rep_pairs": 1095,
+    "density": 25.4,
+    "amb_share": null,
+    "other9": 2877,
+    "states_sending_amb": null,
+    "top_hosts": [
+     [
+      "United States",
+      78
+     ],
+     [
+      "United Kingdom",
+      77
+     ],
+     [
+      "France",
+      69
+     ],
+     [
+      "Italy",
+      67
+     ],
+     [
+      "Belgium",
+      59
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      80
+     ],
+     [
+      "United Kingdom",
+      79
+     ],
+     [
+      "Netherlands",
+      73
+     ],
+     [
+      "Italy",
+      71
+     ],
+     [
+      "Austria",
+      69
+     ]
+    ]
+   },
+   {
+    "year": 1965,
+    "states": 125,
+    "possible": 15500,
+    "rep": 3929,
+    "levels": false,
+    "amb": null,
+    "mutual_amb_pairs": null,
+    "mutual_rep_pairs": 1370,
+    "density": 25.3,
+    "amb_share": null,
+    "other9": 3929,
+    "states_sending_amb": null,
+    "top_hosts": [
+     [
+      "United States",
+      107
+     ],
+     [
+      "United Kingdom",
+      103
+     ],
+     [
+      "France",
+      82
+     ],
+     [
+      "Italy",
+      82
+     ],
+     [
+      "Belgium",
+      69
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      110
+     ],
+     [
+      "United Kingdom",
+      109
+     ],
+     [
+      "Netherlands",
+      101
+     ],
+     [
+      "France",
+      100
+     ],
+     [
+      "Sweden",
+      95
+     ]
+    ]
+   },
+   {
+    "year": 1970,
+    "states": 134,
+    "possible": 17822,
+    "rep": 4945,
+    "levels": true,
+    "amb": 4567,
+    "mutual_amb_pairs": 1662,
+    "mutual_rep_pairs": 1862,
+    "density": 27.7,
+    "amb_share": 92.4,
+    "other9": 24,
+    "states_sending_amb": 133,
+    "top_hosts": [
+     [
+      "United Kingdom",
+      116
+     ],
+     [
+      "United States",
+      114
+     ],
+     [
+      "France",
+      111
+     ],
+     [
+      "Italy",
+      100
+     ],
+     [
+      "Belgium",
+      97
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      115
+     ],
+     [
+      "United Kingdom",
+      108
+     ],
+     [
+      "United States",
+      107
+     ],
+     [
+      "West Germany",
+      92
+     ],
+     [
+      "Italy",
+      91
+     ]
+    ]
+   },
+   {
+    "year": 1975,
+    "states": 150,
+    "possible": 22350,
+    "rep": 7292,
+    "levels": true,
+    "amb": 6877,
+    "mutual_amb_pairs": 2628,
+    "mutual_rep_pairs": 2924,
+    "density": 32.6,
+    "amb_share": 94.3,
+    "other9": 7,
+    "states_sending_amb": 142,
+    "top_hosts": [
+     [
+      "France",
+      128
+     ],
+     [
+      "United Kingdom",
+      127
+     ],
+     [
+      "United States",
+      124
+     ],
+     [
+      "West Germany",
+      120
+     ],
+     [
+      "Belgium",
+      118
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      129
+     ],
+     [
+      "United Kingdom",
+      128
+     ],
+     [
+      "United States",
+      127
+     ],
+     [
+      "West Germany",
+      120
+     ],
+     [
+      "Italy",
+      117
+     ]
+    ]
+   },
+   {
+    "year": 1980,
+    "states": 156,
+    "possible": 24180,
+    "rep": 9089,
+    "levels": true,
+    "amb": 8547,
+    "mutual_amb_pairs": 3284,
+    "mutual_rep_pairs": 3619,
+    "density": 37.6,
+    "amb_share": 94.0,
+    "other9": 52,
+    "states_sending_amb": 155,
+    "top_hosts": [
+     [
+      "United States",
+      135
+     ],
+     [
+      "United Kingdom",
+      135
+     ],
+     [
+      "Belgium",
+      134
+     ],
+     [
+      "France",
+      134
+     ],
+     [
+      "Netherlands",
+      128
+     ]
+    ],
+    "top_senders": [
+     [
+      "France",
+      147
+     ],
+     [
+      "United Kingdom",
+      146
+     ],
+     [
+      "United States",
+      141
+     ],
+     [
+      "Canada",
+      140
+     ],
+     [
+      "West Germany",
+      139
+     ]
+    ]
+   },
+   {
+    "year": 1985,
+    "states": 161,
+    "possible": 25760,
+    "rep": 6411,
+    "levels": true,
+    "amb": 5878,
+    "mutual_amb_pairs": 2361,
+    "mutual_rep_pairs": 2635,
+    "density": 24.9,
+    "amb_share": 91.7,
+    "other9": 89,
+    "states_sending_amb": 159,
+    "top_hosts": [
+     [
+      "United States",
+      143
+     ],
+     [
+      "France",
+      124
+     ],
+     [
+      "United Kingdom",
+      124
+     ],
+     [
+      "Belgium",
+      122
+     ],
+     [
+      "West Germany",
+      119
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      138
+     ],
+     [
+      "France",
+      138
+     ],
+     [
+      "West Germany",
+      128
+     ],
+     [
+      "China (People's Republic from 1949)",
+      124
+     ],
+     [
+      "United Kingdom",
+      122
+     ]
+    ]
+   },
+   {
+    "year": 1990,
+    "states": 165,
+    "possible": 27060,
+    "rep": 6624,
+    "levels": true,
+    "amb": 6102,
+    "mutual_amb_pairs": 2470,
+    "mutual_rep_pairs": 2741,
+    "density": 24.5,
+    "amb_share": 92.1,
+    "other9": 88,
+    "states_sending_amb": 163,
+    "top_hosts": [
+     [
+      "United States",
+      146
+     ],
+     [
+      "Belgium",
+      129
+     ],
+     [
+      "United Kingdom",
+      127
+     ],
+     [
+      "France",
+      126
+     ],
+     [
+      "Prussia, then Germany",
+      124
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      142
+     ],
+     [
+      "France",
+      136
+     ],
+     [
+      "Prussia, then Germany",
+      133
+     ],
+     [
+      "United Kingdom",
+      130
+     ],
+     [
+      "China (People's Republic from 1949)",
+      129
+     ]
+    ]
+   },
+   {
+    "year": 1995,
+    "states": 187,
+    "possible": 34782,
+    "rep": 7331,
+    "levels": true,
+    "amb": 6519,
+    "mutual_amb_pairs": 2542,
+    "mutual_rep_pairs": 2969,
+    "density": 21.1,
+    "amb_share": 88.9,
+    "other9": 218,
+    "states_sending_amb": 185,
+    "top_hosts": [
+     [
+      "United States",
+      169
+     ],
+     [
+      "Belgium",
+      158
+     ],
+     [
+      "France",
+      146
+     ],
+     [
+      "United Kingdom",
+      145
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      139
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      163
+     ],
+     [
+      "France",
+      151
+     ],
+     [
+      "China (People's Republic from 1949)",
+      149
+     ],
+     [
+      "Prussia, then Germany",
+      147
+     ],
+     [
+      "United Kingdom",
+      146
+     ]
+    ]
+   },
+   {
+    "year": 2000,
+    "states": 191,
+    "possible": 36290,
+    "rep": 7623,
+    "levels": true,
+    "amb": 6791,
+    "mutual_amb_pairs": 2676,
+    "mutual_rep_pairs": 3100,
+    "density": 21.0,
+    "amb_share": 89.1,
+    "other9": 192,
+    "states_sending_amb": 189,
+    "top_hosts": [
+     [
+      "United States",
+      171
+     ],
+     [
+      "Belgium",
+      161
+     ],
+     [
+      "France",
+      153
+     ],
+     [
+      "United Kingdom",
+      148
+     ],
+     [
+      "Prussia, then Germany",
+      148
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      163
+     ],
+     [
+      "France",
+      154
+     ],
+     [
+      "China (People's Republic from 1949)",
+      154
+     ],
+     [
+      "Prussia, then Germany",
+      148
+     ],
+     [
+      "United Kingdom",
+      146
+     ]
+    ]
+   },
+   {
+    "year": 2005,
+    "states": 192,
+    "possible": 36672,
+    "rep": 8110,
+    "levels": true,
+    "amb": 7517,
+    "mutual_amb_pairs": 3036,
+    "mutual_rep_pairs": 3358,
+    "density": 22.1,
+    "amb_share": 92.7,
+    "other9": 115,
+    "states_sending_amb": 190,
+    "top_hosts": [
+     [
+      "United States",
+      179
+     ],
+     [
+      "Belgium",
+      167
+     ],
+     [
+      "United Kingdom",
+      154
+     ],
+     [
+      "France",
+      151
+     ],
+     [
+      "Prussia, then Germany",
+      150
+     ]
+    ],
+    "top_senders": [
+     [
+      "United States",
+      165
+     ],
+     [
+      "France",
+      159
+     ],
+     [
+      "China (People's Republic from 1949)",
+      158
+     ],
+     [
+      "United Kingdom",
+      150
+     ],
+     [
+      "Prussia, then Germany",
+      144
+     ]
+    ]
+   }
+  ],
+  "splits": {
+   "us_ussr": [
+    {
+     "year": 1950,
+     "a": 69,
+     "b": 36,
+     "both": 31,
+     "a_only": 38,
+     "b_only": 5,
+     "states": 75
+    },
+    {
+     "year": 1955,
+     "a": 75,
+     "b": 49,
+     "both": 41,
+     "a_only": 34,
+     "b_only": 8,
+     "states": 84
+    },
+    {
+     "year": 1960,
+     "a": 80,
+     "b": 48,
+     "both": 42,
+     "a_only": 38,
+     "b_only": 6,
+     "states": 107
+    },
+    {
+     "year": 1965,
+     "a": 110,
+     "b": 62,
+     "both": 54,
+     "a_only": 56,
+     "b_only": 8,
+     "states": 125
+    },
+    {
+     "year": 1970,
+     "a": 107,
+     "b": 89,
+     "both": 72,
+     "a_only": 35,
+     "b_only": 17,
+     "states": 134
+    },
+    {
+     "year": 1975,
+     "a": 127,
+     "b": 102,
+     "both": 92,
+     "a_only": 35,
+     "b_only": 10,
+     "states": 150
+    },
+    {
+     "year": 1980,
+     "a": 141,
+     "b": 119,
+     "both": 109,
+     "a_only": 32,
+     "b_only": 10,
+     "states": 156
+    },
+    {
+     "year": 1985,
+     "a": 138,
+     "b": 117,
+     "both": 106,
+     "a_only": 32,
+     "b_only": 11,
+     "states": 161
+    },
+    {
+     "year": 1990,
+     "a": 142,
+     "b": 127,
+     "both": 117,
+     "a_only": 25,
+     "b_only": 10,
+     "states": 165
+    },
+    {
+     "year": 1995,
+     "a": 163,
+     "b": 141,
+     "both": 134,
+     "a_only": 29,
+     "b_only": 7,
+     "states": 187
+    },
+    {
+     "year": 2000,
+     "a": 163,
+     "b": 143,
+     "both": 135,
+     "a_only": 28,
+     "b_only": 8,
+     "states": 191
+    },
+    {
+     "year": 2005,
+     "a": 165,
+     "b": 142,
+     "both": 134,
+     "a_only": 31,
+     "b_only": 8,
+     "states": 192
+    }
+   ],
+   "prc_roc": [
+    {
+     "year": 1950,
+     "a": 8,
+     "b": 26,
+     "both": 1,
+     "a_only": 7,
+     "b_only": 25,
+     "states": 75
+    },
+    {
+     "year": 1955,
+     "a": 5,
+     "b": 2,
+     "both": 0,
+     "a_only": 5,
+     "b_only": 2,
+     "states": 84
+    },
+    {
+     "year": 1960,
+     "a": 22,
+     "b": 12,
+     "both": 0,
+     "a_only": 22,
+     "b_only": 12,
+     "states": 107
+    },
+    {
+     "year": 1965,
+     "a": 33,
+     "b": 7,
+     "both": 0,
+     "a_only": 33,
+     "b_only": 7,
+     "states": 125
+    },
+    {
+     "year": 1970,
+     "a": 56,
+     "b": 42,
+     "both": 0,
+     "a_only": 56,
+     "b_only": 42,
+     "states": 134
+    },
+    {
+     "year": 1975,
+     "a": 93,
+     "b": 24,
+     "both": 0,
+     "a_only": 93,
+     "b_only": 24,
+     "states": 150
+    },
+    {
+     "year": 1980,
+     "a": 117,
+     "b": 18,
+     "both": 0,
+     "a_only": 117,
+     "b_only": 18,
+     "states": 156
+    },
+    {
+     "year": 1985,
+     "a": 124,
+     "b": 14,
+     "both": 0,
+     "a_only": 124,
+     "b_only": 14,
+     "states": 161
+    },
+    {
+     "year": 1990,
+     "a": 129,
+     "b": 21,
+     "both": 0,
+     "a_only": 129,
+     "b_only": 21,
+     "states": 165
+    },
+    {
+     "year": 1995,
+     "a": 149,
+     "b": 20,
+     "both": 0,
+     "a_only": 149,
+     "b_only": 20,
+     "states": 187
+    },
+    {
+     "year": 2000,
+     "a": 154,
+     "b": 25,
+     "both": 1,
+     "a_only": 153,
+     "b_only": 24,
+     "states": 191
+    },
+    {
+     "year": 2005,
+     "a": 158,
+     "b": 21,
+     "both": 0,
+     "a_only": 158,
+     "b_only": 21,
+     "states": 192
+    }
+   ],
+   "frg_gdr": [
+    {
+     "year": 1955,
+     "a": 57,
+     "b": 3,
+     "both": 0,
+     "a_only": 57,
+     "b_only": 3,
+     "states": 84
+    },
+    {
+     "year": 1960,
+     "a": 64,
+     "b": 3,
+     "both": 0,
+     "a_only": 64,
+     "b_only": 3,
+     "states": 107
+    },
+    {
+     "year": 1965,
+     "a": 93,
+     "b": 12,
+     "both": 1,
+     "a_only": 92,
+     "b_only": 11,
+     "states": 125
+    },
+    {
+     "year": 1970,
+     "a": 92,
+     "b": 19,
+     "both": 4,
+     "a_only": 88,
+     "b_only": 15,
+     "states": 134
+    },
+    {
+     "year": 1975,
+     "a": 120,
+     "b": 81,
+     "both": 75,
+     "a_only": 45,
+     "b_only": 6,
+     "states": 150
+    },
+    {
+     "year": 1980,
+     "a": 139,
+     "b": 109,
+     "both": 101,
+     "a_only": 38,
+     "b_only": 8,
+     "states": 156
+    },
+    {
+     "year": 1985,
+     "a": 128,
+     "b": 87,
+     "both": 80,
+     "a_only": 48,
+     "b_only": 7,
+     "states": 161
+    },
+    {
+     "year": 1990,
+     "a": 2,
+     "b": 2,
+     "both": 2,
+     "a_only": 0,
+     "b_only": 0,
+     "states": 165
+    }
+   ]
+  },
+  "new": [
+   {
+    "year": 1824,
+    "n": 0,
+    "names": []
+   },
+   {
+    "year": 1827,
+    "n": 2,
+    "names": [
+     "Brazil",
+     "Tunisia"
+    ]
+   },
+   {
+    "year": 1832,
+    "n": 4,
+    "names": [
+     "Mexico",
+     "Colombia",
+     "Belgium",
+     "Greece"
+    ]
+   },
+   {
+    "year": 1836,
+    "n": 0,
+    "names": []
+   },
+   {
+    "year": 1840,
+    "n": 3,
+    "names": [
+     "Peru",
+     "Chile",
+     "Hanover"
+    ]
+   },
+   {
+    "year": 1844,
+    "n": 4,
+    "names": [
+     "Venezuela",
+     "Argentina",
+     "Mecklenburg Schwerin",
+     "Modena"
+    ]
+   },
+   {
+    "year": 1849,
+    "n": 3,
+    "names": [
+     "Bolivia",
+     "Paraguay",
+     "Morocco"
+    ]
+   },
+   {
+    "year": 1854,
+    "n": 2,
+    "names": [
+     "Ecuador",
+     "Parma"
+    ]
+   },
+   {
+    "year": 1859,
+    "n": 3,
+    "names": [
+     "Haiti",
+     "Iran",
+     "Egypt"
+    ]
+   },
+   {
+    "year": 1864,
+    "n": 2,
+    "names": [
+     "China (People's Republic from 1949)",
+     "Japan"
+    ]
+   },
+   {
+    "year": 1869,
+    "n": 1,
+    "names": [
+     "Guatemala"
+    ]
+   },
+   {
+    "year": 1874,
+    "n": 0,
+    "names": []
+   },
+   {
+    "year": 1879,
+    "n": 3,
+    "names": [
+     "El Salvador",
+     "Yugoslavia, then Serbia",
+     "Romania"
+    ]
+   },
+   {
+    "year": 1884,
+    "n": 1,
+    "names": [
+     "Uruguay"
+    ]
+   },
+   {
+    "year": 1889,
+    "n": 2,
+    "names": [
+     "Korea",
+     "Thailand"
+    ]
+   },
+   {
+    "year": 1894,
+    "n": 1,
+    "names": [
+     "Dominican Republic"
+    ]
+   },
+   {
+    "year": 1899,
+    "n": 2,
+    "names": [
+     "Honduras",
+     "Ethiopia"
+    ]
+   },
+   {
+    "year": 1904,
+    "n": 2,
+    "names": [
+     "Cuba",
+     "Nicaragua"
+    ]
+   },
+   {
+    "year": 1909,
+    "n": 2,
+    "names": [
+     "Bulgaria",
+     "Norway"
+    ]
+   },
+   {
+    "year": 1914,
+    "n": 1,
+    "names": [
+     "Albania"
+    ]
+   },
+   {
+    "year": 1920,
+    "n": 18,
+    "names": [
+     "Canada",
+     "Costa Rica",
+     "Panama",
+     "Luxembourg",
+     "Poland",
+     "Austria",
+     "Hungary",
+     "Czechoslovakia",
+     "Estonia",
+     "Latvia",
+     "Lithuania",
+     "Finland",
+     "Liberia",
+     "South Africa",
+     "Afghanistan",
+     "Nepal",
+     "Australia",
+     "New Zealand"
+    ]
+   },
+   {
+    "year": 1925,
+    "n": 2,
+    "names": [
+     "Ireland",
+     "Mongolia"
+    ]
+   },
+   {
+    "year": 1930,
+    "n": 2,
+    "names": [
+     "Saudi Arabia",
+     "North Yemen"
+    ]
+   },
+   {
+    "year": 1935,
+    "n": 1,
+    "names": [
+     "Iraq"
+    ]
+   },
+   {
+    "year": 1940,
+    "n": 0,
+    "names": []
+   },
+   {
+    "year": 1950,
+    "n": 14,
+    "names": [
+     "Iceland",
+     "Syria",
+     "Lebanon",
+     "Jordan",
+     "Israel",
+     "Taiwan (Republic of China)",
+     "North Korea",
+     "South Korea",
+     "India",
+     "Pakistan",
+     "Myanmar",
+     "Sri Lanka",
+     "Philippines",
+     "Indonesia"
+    ]
+   },
+   {
+    "year": 1955,
+    "n": 7,
+    "names": [
+     "West Germany",
+     "East Germany",
+     "Libya",
+     "Cambodia",
+     "Laos",
+     "Vietnam (North Vietnam to 1976)",
+     "South Vietnam"
+    ]
+   },
+   {
+    "year": 1960,
+    "n": 22,
+    "names": [
+     "Cyprus",
+     "Mali",
+     "Senegal",
+     "Benin",
+     "Mauritania",
+     "Niger",
+     "Ivory Coast",
+     "Guinea",
+     "Burkina Faso",
+     "Ghana",
+     "Togo",
+     "Cameroon",
+     "Nigeria",
+     "Gabon",
+     "Central African Republic",
+     "Chad",
+     "Congo",
+     "Democratic Republic of the Congo",
+     "Somalia",
+     "Madagascar",
+     "Sudan",
+     "Malaysia"
+    ]
+   },
+   {
+    "year": 1965,
+    "n": 17,
+    "names": [
+     "Jamaica",
+     "Trinidad and Tobago",
+     "Malta",
+     "Gambia",
+     "Sierra Leone",
+     "Uganda",
+     "Kenya",
+     "Tanzania",
+     "Burundi",
+     "Rwanda",
+     "Zambia",
+     "Zimbabwe",
+     "Malawi",
+     "Algeria",
+     "Kuwait",
+     "Maldives",
+     "Singapore"
+    ]
+   },
+   {
+    "year": 1970,
+    "n": 9,
+    "names": [
+     "Barbados",
+     "Guyana",
+     "Equatorial Guinea",
+     "Lesotho",
+     "Botswana",
+     "Swaziland",
+     "Mauritius",
+     "South Yemen",
+     "Fiji"
+    ]
+   },
+   {
+    "year": 1975,
+    "n": 16,
+    "names": [
+     "Bahamas",
+     "Grenada",
+     "Suriname",
+     "Cape Verde",
+     "Sao Tome and Principe",
+     "Guinea-Bissau",
+     "Angola",
+     "Mozambique",
+     "Comoros",
+     "Bahrain",
+     "Qatar",
+     "United Arab Emirates",
+     "Oman",
+     "Bhutan",
+     "Bangladesh",
+     "Papua New Guinea"
+    ]
+   },
+   {
+    "year": 1980,
+    "n": 7,
+    "names": [
+     "Dominica",
+     "St. Lucia",
+     "St. Vincent and the Grenadines",
+     "Djibouti",
+     "Seychelles",
+     "Solomon Islands",
+     "Samoa"
+    ]
+   },
+   {
+    "year": 1985,
+    "n": 5,
+    "names": [
+     "Antigua & Barbuda",
+     "St. Kitts and Nevis",
+     "Belize",
+     "Brunei",
+     "Vanuatu"
+    ]
+   },
+   {
+    "year": 1990,
+    "n": 3,
+    "names": [
+     "Liechtenstein",
+     "Namibia",
+     "Yemen"
+    ]
+   },
+   {
+    "year": 1995,
+    "n": 24,
+    "names": [
+     "Monaco",
+     "Andorra",
+     "Czech Republic",
+     "Slovakia",
+     "San Marino",
+     "Macedonia",
+     "Croatia",
+     "Bosnia and Herzegovina",
+     "Slovenia",
+     "Moldova",
+     "Ukraine",
+     "Belarus",
+     "Armenia",
+     "Georgia",
+     "Azerbaijan",
+     "Eritrea",
+     "Turkmenistan",
+     "Tajikistan",
+     "Kyrgyzstan",
+     "Uzbekistan",
+     "Kazakhstan",
+     "Marshall Islands",
+     "Palau",
+     "Federated States of Micronesia"
+    ]
+   },
+   {
+    "year": 2000,
+    "n": 4,
+    "names": [
+     "Kiribati",
+     "Tuvalu",
+     "Tonga",
+     "Nauru"
+    ]
+   },
+   {
+    "year": 2005,
+    "n": 1,
+    "names": [
+     "East Timor"
+    ]
+   }
+  ],
+  "net": {
+   "1817": {
+    "senders": [
+     [
+      "Prussia, then Germany",
+      20
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      20
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      19
+     ],
+     [
+      "France",
+      18
+     ],
+     [
+      "United Kingdom",
+      17
+     ],
+     [
+      "Netherlands",
+      16
+     ],
+     [
+      "Sweden",
+      14
+     ],
+     [
+      "Spain",
+      13
+     ],
+     [
+      "Denmark",
+      12
+     ],
+     [
+      "Italy",
+      11
+     ]
+    ],
+    "hosts": [
+     [
+      "France",
+      13
+     ],
+     [
+      "United Kingdom",
+      12
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      12
+     ],
+     [
+      "Bavaria",
+      12
+     ],
+     [
+      "Netherlands",
+      11
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      11
+     ],
+     [
+      "Two Sicilies",
+      11
+     ],
+     [
+      "Saxony",
+      10
+     ],
+     [
+      "Prussia, then Germany",
+      10
+     ],
+     [
+      "Switzerland",
+      9
+     ]
+    ]
+   },
+   "1914": {
+    "senders": [
+     [
+      "Italy",
+      43
+     ],
+     [
+      "France",
+      43
+     ],
+     [
+      "Prussia, then Germany",
+      43
+     ],
+     [
+      "United Kingdom",
+      41
+     ],
+     [
+      "United States",
+      40
+     ],
+     [
+      "Belgium",
+      40
+     ],
+     [
+      "Spain",
+      38
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      32
+     ],
+     [
+      "Brazil",
+      31
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      29
+     ]
+    ],
+    "hosts": [
+     [
+      "United States",
+      40
+     ],
+     [
+      "United Kingdom",
+      39
+     ],
+     [
+      "France",
+      39
+     ],
+     [
+      "Prussia, then Germany",
+      38
+     ],
+     [
+      "Italy",
+      37
+     ],
+     [
+      "Spain",
+      36
+     ],
+     [
+      "Netherlands",
+      34
+     ],
+     [
+      "Austria (Austria-Hungary 1867 to 1918)",
+      33
+     ],
+     [
+      "Belgium",
+      32
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      28
+     ]
+    ]
+   },
+   "1950": {
+    "senders": [
+     [
+      "United States",
+      69
+     ],
+     [
+      "United Kingdom",
+      66
+     ],
+     [
+      "France",
+      62
+     ],
+     [
+      "Italy",
+      59
+     ],
+     [
+      "Belgium",
+      59
+     ],
+     [
+      "Netherlands",
+      57
+     ],
+     [
+      "Denmark",
+      52
+     ],
+     [
+      "Norway",
+      48
+     ],
+     [
+      "Argentina",
+      45
+     ],
+     [
+      "Sweden",
+      45
+     ]
+    ],
+    "hosts": [
+     [
+      "United States",
+      69
+     ],
+     [
+      "France",
+      66
+     ],
+     [
+      "United Kingdom",
+      66
+     ],
+     [
+      "Italy",
+      51
+     ],
+     [
+      "Belgium",
+      48
+     ],
+     [
+      "Argentina",
+      45
+     ],
+     [
+      "Switzerland",
+      44
+     ],
+     [
+      "Sweden",
+      43
+     ],
+     [
+      "Brazil",
+      42
+     ],
+     [
+      "Netherlands",
+      41
+     ]
+    ]
+   },
+   "1975": {
+    "senders": [
+     [
+      "France",
+      129
+     ],
+     [
+      "United Kingdom",
+      128
+     ],
+     [
+      "United States",
+      127
+     ],
+     [
+      "West Germany",
+      120
+     ],
+     [
+      "Italy",
+      117
+     ],
+     [
+      "Japan",
+      114
+     ],
+     [
+      "Switzerland",
+      112
+     ],
+     [
+      "Netherlands",
+      110
+     ],
+     [
+      "Egypt",
+      110
+     ],
+     [
+      "Canada",
+      110
+     ]
+    ],
+    "hosts": [
+     [
+      "France",
+      128
+     ],
+     [
+      "United Kingdom",
+      127
+     ],
+     [
+      "United States",
+      124
+     ],
+     [
+      "West Germany",
+      120
+     ],
+     [
+      "Belgium",
+      118
+     ],
+     [
+      "Netherlands",
+      116
+     ],
+     [
+      "Italy",
+      116
+     ],
+     [
+      "Switzerland",
+      111
+     ],
+     [
+      "Sweden",
+      109
+     ],
+     [
+      "Canada",
+      109
+     ]
+    ]
+   },
+   "2005": {
+    "senders": [
+     [
+      "United States",
+      165
+     ],
+     [
+      "France",
+      159
+     ],
+     [
+      "China (People's Republic from 1949)",
+      158
+     ],
+     [
+      "United Kingdom",
+      150
+     ],
+     [
+      "Prussia, then Germany",
+      144
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      142
+     ],
+     [
+      "Japan",
+      132
+     ],
+     [
+      "Egypt",
+      121
+     ],
+     [
+      "Italy",
+      119
+     ],
+     [
+      "India",
+      116
+     ]
+    ],
+    "hosts": [
+     [
+      "United States",
+      179
+     ],
+     [
+      "Belgium",
+      167
+     ],
+     [
+      "United Kingdom",
+      154
+     ],
+     [
+      "France",
+      151
+     ],
+     [
+      "Prussia, then Germany",
+      150
+     ],
+     [
+      "China (People's Republic from 1949)",
+      145
+     ],
+     [
+      "Russia (Soviet Union 1922 to 1991)",
+      134
+     ],
+     [
+      "Japan",
+      131
+     ],
+     [
+      "Italy",
+      131
+     ],
+     [
+      "Canada",
+      131
+     ]
+    ]
+   }
+  },
+  "states_1817": 23,
+  "states_2005": 192,
+  "rep_1817": 198,
+  "rep_2005": 8110,
+  "rep_1980": 9089,
+  "density_1817": 39.1,
+  "density_2005": 22.1,
+  "amb_share_1914": 10.1,
+  "amb_share_2005": 92.7,
+  "amb_share_1970": 92.4,
+  "amb_1914": 93,
+  "amb_1817": 23,
+  "amb_2005": 7517,
+  "new_1960s": 39,
+  "new_1920": 18,
+  "new_1995": 24,
+  "peak_rep_year": 1980,
+  "peak_rep": 9089,
+  "us_1950": 69,
+  "ussr_1950": 36,
+  "us_1985": 138,
+  "ussr_1985": 117,
+  "ussr_only_1985": 11,
+  "us_only_1985": 32,
+  "prc_1950": 8,
+  "roc_1950": 26,
+  "prc_1970": 56,
+  "roc_1970": 42,
+  "prc_1975": 93,
+  "roc_1975": 24,
+  "prc_2005": 158,
+  "roc_2005": 21,
+  "prc_roc_both_max": 1,
+  "frg_1965": 93,
+  "gdr_1965": 12,
+  "frg_1975": 120,
+  "gdr_1975": 81,
+  "frg_1985": 128,
+  "gdr_1985": 87,
+  "gdr_both_1985": 80,
+  "amb_share_1817": 11.6,
+  "rep_1985": 6411,
+  "mutual_2005": 3358,
+  "mutual_1817": 55,
+  "rep_1914": 922,
+  "states_1914": 44,
+  "states_1950": 75,
+  "states_1975": 150,
+  "top_host_1817": [
+   "France",
+   13
+  ],
+  "top_host_2005": [
+   "United States",
+   179
+  ],
+  "top_sender_2005": [
+   "United States",
+   165
+  ]
+ },
+ "countries": {
+  "states": 198,
+  "un": 193
+ },
+ "seats_mismatch_n": 10,
+ "deep": {
+  "entries": 60,
+  "events": 52,
+  "first_year": -2400,
+  "last_year": 1815,
+  "confirmed": 42,
+  "approximate": 10,
+  "not_confirmed": 8,
+  "courts": 69,
+  "by_kind": {
+   "envoys": 29,
+   "letters": 8,
+   "treaty": 5,
+   "proxenia": 1,
+   "tribute": 3,
+   "resident": 5,
+   "congress": 9
+  },
+  "first_resident": 1446,
+  "amarna": 8,
+  "bc": 17,
+  "ottoman_first": 1793,
+  "spain_london": 1487,
+  "articles": 44
+ },
+ "params": {
+  "merge_m": 350,
+  "odd_pop_m": 12,
+  "odd_km": 9000,
+  "cluster_km": 1,
+  "lowy_countries": 66,
+  "waves": 38
+ }
+}
